@@ -1,0 +1,29 @@
+{
+	"name": "silverstripe/installer",
+	"description": "The SilverStripe Framework Installer",
+	"require": {
+		"php": ">=5.3.2",
+		"md/division-simple": "dev-master"
+
+	},
+	"config": {
+		"process-timeout": 600	
+	},
+	"minimum-stability": "dev",
+	
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-simple"
+      
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"
+
+        }
+    ]
+
+}
+
+
