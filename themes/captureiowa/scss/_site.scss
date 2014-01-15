@@ -1,0 +1,33 @@
+header {
+	background: #ffd204;
+	height: 60px;
+	padding-top: 0.5%;
+
+	@media screen and (min-width: $screen-sm-min) {
+		height: 100px;
+	}
+
+	img {
+		
+		display: block;
+		margin: auto;
+		height: 100px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			height: 140px;
+		}
+	}
+}
+
+.hero-instructions {
+	margin-top: 100px;
+}
+
+.storify {
+
+}
+
+.storify iframe{
+	width: 100% !important;
+	max-width: 100% !important;
+}
