@@ -11,10 +11,40 @@ header {
 		
 		display: block;
 		margin: auto;
-		height: 45px;
+	
 
 		@media screen and (min-width: $screen-sm-min) {
 			height: 70px;
+		}
+	}
+}
+
+header.affix-top {
+	height: 30px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		height: 45px;
+	}
+
+	img {
+		height: 100px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			
+		}
+	}
+}
+
+header.affix{
+	height: 20px;
+	@media screen and (min-width: $screen-sm-min) {
+		height: 25px;
+	}
+	img {
+		height: 55px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			
 		}
 	}
 }
