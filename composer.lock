@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d10e622c1c4dbe9e6e8c51ed471d70d9",
+    "hash": "23387a33b43b62156f8cb3903a1f5b36",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -161,12 +161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-simple.git",
-                "reference": "d7ce3fc5b631d9fa5f0a7636668b101163705714"
+                "reference": "66592d7d97c0d18a9305a5d6b9f021b4f1e751de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-simple/zipball/d7ce3fc5b631d9fa5f0a7636668b101163705714",
-                "reference": "d7ce3fc5b631d9fa5f0a7636668b101163705714",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-simple/zipball/66592d7d97c0d18a9305a5d6b9f021b4f1e751de",
+                "reference": "66592d7d97c0d18a9305a5d6b9f021b4f1e751de",
                 "shasum": ""
             },
             "require": {
@@ -189,7 +189,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-simple/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-simple/issues"
             },
-            "time": "2014-01-15 18:09:06"
+            "time": "2014-01-15 22:18:18"
         },
         {
             "name": "silverstripe-themes/simple",

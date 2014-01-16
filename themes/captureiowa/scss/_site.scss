@@ -1,20 +1,20 @@
 header {
 	background: #ffd204;
-	height: 60px;
-	padding-top: 0.5%;
+	height: 20px;
+	padding-top: 2px;
 
 	@media screen and (min-width: $screen-sm-min) {
-		height: 100px;
+		height: 35px;
 	}
 
 	img {
 		
 		display: block;
 		margin: auto;
-		height: 100px;
+		height: 45px;
 
 		@media screen and (min-width: $screen-sm-min) {
-			height: 140px;
+			height: 70px;
 		}
 	}
 }
