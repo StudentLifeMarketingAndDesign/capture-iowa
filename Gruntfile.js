@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['division-simple/js/*.js', 'division-simple/js/**/*.js'],
+        files: ['division-simple/js/*.js', 'division-simple/js/**/*.js', 'themes/captureiowa/js/*.js'],
         tasks: ['concat', 'uglify'],
         options: {
           spawn: false,

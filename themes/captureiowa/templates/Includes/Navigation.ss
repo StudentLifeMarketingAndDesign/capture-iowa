@@ -1,5 +1,3 @@
 <header>
-  <div class="container">
-    <img src="{$ThemeDir}/images/logo-gold.png" />
-  </div>
+    <a href="#"><img class="logo" src="{$ThemeDir}/images/logo-gold.png" /></a>
 </header>

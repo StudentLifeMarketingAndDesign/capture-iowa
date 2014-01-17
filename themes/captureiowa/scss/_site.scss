@@ -1,56 +1,88 @@
-header {
-	background: #ffd204;
-	height: 20px;
-	padding-top: 2px;
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.division-topbar {
+	display: none;
 
 	@media screen and (min-width: $screen-sm-min) {
-		height: 35px;
+		display: block;
+	}
+
+}
+
+header {
+	background: #ffd204;
+	height: 0;
+
+	@media screen and (min-width: $screen-sm-min) {
 	}
 
 	img {
 		
 		display: block;
+		position: fixed;
+		left: 0;
+		right: 0;
+		height: 60px;
 		margin: auto;
-	
+		
+
 
 		@media screen and (min-width: $screen-sm-min) {
-			height: 70px;
-		}
-	}
-}
-
-header.affix-top {
-	height: 30px;
-
-	@media screen and (min-width: $screen-sm-min) {
-		height: 45px;
-	}
-
-	img {
-		height: 100px;
-
-		@media screen and (min-width: $screen-sm-min) {
+			height: 100px;
+			margin-top: -45px;
 			
 		}
 	}
 }
 
-header.affix{
-	height: 20px;
-	@media screen and (min-width: $screen-sm-min) {
-		height: 25px;
-	}
-	img {
-		height: 55px;
-
-		@media screen and (min-width: $screen-sm-min) {
-			
-		}
-	}
-}
 
 .hero-instructions {
-	margin-top: 100px;
+	color: #333;
+	font-size: 1.3em;
+	background: url('../images/hero-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+		@media screen and (min-width: $screen-md-min) {
+
+		}	
+}
+
+.instruction-text {
+	margin: 10px 0;
+}
+.instructions {
+	background: #ffd204;
+	bottom: 0;
+	padding: 20px;
+
+	@media screen and (min-width: $screen-md-min) {
+		margin-top: 10%;
+	}	
+
+	img {
+		max-width: 100%;
+	}
+
+	.icons{
+		text-align: center;
+		margin: 10px 0;
+
+	}
+
+	.icons a {
+		margin: 0 20px;
+
+	}
+	.icons img{
+		width: 20%;
+		margin: 10px 0;
+	}
+
 }
 
 .storify {
@@ -60,4 +92,8 @@ header.affix{
 .storify iframe{
 	width: 100% !important;
 	max-width: 100% !important;
+}
+
+.clearfix {
+	clear: both;
 }
