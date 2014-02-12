@@ -5,12 +5,16 @@
 }
 
 .division-topbar {
-	display: none;
+	//display: none;
 
 	@media screen and (min-width: $screen-sm-min) {
-		display: block;
+		//display: block;
 	}
 
+}
+
+hr{
+	border-top: 1px solid #dcb503;
 }
 
 header {
@@ -26,7 +30,7 @@ header {
 		position: fixed;
 		left: 0;
 		right: 0;
-		height: 60px;
+		height: 80px;
 		margin: auto;
 		
 
@@ -34,12 +38,17 @@ header {
 		@media screen and (min-width: $screen-sm-min) {
 			height: 100px;
 			margin-top: -45px;
-			
 		}
+
 	}
 }
 
-
+	header img.logo.scrolled {
+		top: -40px;
+		@media screen and (min-width: $screen-sm-min) {
+			top: -5px
+		}
+	}
 .hero-instructions {
 	color: #333;
 	font-size: 1.3em;
@@ -51,17 +60,18 @@ header {
 
 		}	
 }
-
+ 
 .instruction-text {
-	margin: 10px 0;
+	margin: 20px 0;
 }
 .instructions {
 	background: #ffd204;
 	bottom: 0;
 	padding: 20px;
 
-	@media screen and (min-width: $screen-md-min) {
+	@media screen and (min-width: $screen-sm-min) {
 		margin-top: 10%;
+		margin-bottom: 10%;
 	}	
 
 	img {
@@ -75,12 +85,25 @@ header {
 	}
 
 	.icons a {
-		margin: 0 20px;
+		margin: 0;
 
+		@media screen and (min-width: $screen-md-min) {
+			margin: 0 20px;
+			
+		}	
+	}
+
+	.icons a:hover {
+		text-decoration: none;
 	}
 	.icons img{
 		width: 20%;
 		margin: 10px 0;
+	}
+
+	iframe{
+		display: block;
+		margin: auto;
 	}
 
 }
@@ -94,6 +117,6 @@ header {
 	max-width: 100% !important;
 }
 
-.clearfix {
-	clear: both;
+.end-tag {
+	font-size: 2em;
 }

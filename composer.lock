@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "23387a33b43b62156f8cb3903a1f5b36",
+    "hash": "6f3eb2c9f4dceba80fd7ea0e32b23a23",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "e0d2c311b563a686e7cab70f7edcde47c38db946"
+                "reference": "0e307890402a1a6a87729d56005d9a1fa5bb5c9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/e0d2c311b563a686e7cab70f7edcde47c38db946",
-                "reference": "e0d2c311b563a686e7cab70f7edcde47c38db946",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/0e307890402a1a6a87729d56005d9a1fa5bb5c9e",
+                "reference": "0e307890402a1a6a87729d56005d9a1fa5bb5c9e",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2014-01-03 08:10:49"
+            "time": "2014-01-17 10:56:46"
         },
         {
             "name": "composer/installers",
@@ -161,12 +161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-simple.git",
-                "reference": "66592d7d97c0d18a9305a5d6b9f021b4f1e751de"
+                "reference": "da96b1a20bf8e2186eb4688129776e6187a5b691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-simple/zipball/66592d7d97c0d18a9305a5d6b9f021b4f1e751de",
-                "reference": "66592d7d97c0d18a9305a5d6b9f021b4f1e751de",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-simple/zipball/da96b1a20bf8e2186eb4688129776e6187a5b691",
+                "reference": "da96b1a20bf8e2186eb4688129776e6187a5b691",
                 "shasum": ""
             },
             "require": {
@@ -189,7 +189,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-simple/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-simple/issues"
             },
-            "time": "2014-01-15 22:18:18"
+            "time": "2014-01-17 21:30:23"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -319,6 +319,45 @@
                 "silverstripe"
             ],
             "time": "2013-11-12 18:43:44"
+        },
+        {
+            "name": "silverstripe/staticpublisher",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-labs/silverstripe-staticpublisher.git",
+                "reference": "ea1461acd7eb78b25e629b5c6fedf719b37f63e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-staticpublisher/zipball/ea1461acd7eb78b25e629b5c6fedf719b37f63e8",
+                "reference": "ea1461acd7eb78b25e629b5c6fedf719b37f63e8",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io",
+                    "homepage": "http://wilr.github.com"
+                },
+                {
+                    "name": "Sam Minnee",
+                    "email": "sam@silverstripe.com"
+                }
+            ],
+            "description": "StaticPublisher provides an extensions for exporting a SilverStripe application to either a local or remote file systems.",
+            "keywords": [
+                "export",
+                "publisher",
+                "silverstripe-labs",
+                "static"
+            ],
+            "time": "2014-01-14 07:36:46"
         },
         {
             "name": "undefinedoffset/sortablegridfield",
