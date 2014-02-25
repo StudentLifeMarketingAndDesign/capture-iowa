@@ -11639,7 +11639,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
  _checkInstance(); })(window.jQuery || window.Zepto);
 /**
 * Sass Bootstrap v3.0.21 by Aaron Lademann and Twitter Inc.
-* Copyright 2014 Aaron Lademann and Twitter Inc.
+* Copyright 2013 Aaron Lademann and Twitter Inc.
 * Licensed under http://www.apache.org/licenses/LICENSE-2.0.
 *
 * Designed and built with all the love in the world by @alademann, @mdo and @fat.
@@ -11692,6 +11692,18 @@ $(document).ready(function() {
          navMain.collapse('hide');
      });
  });
+
+
+$('header').affix({
+      offset: {
+        top: 
+          function () {
+            return (this.bottom = $('.bg-container').height()+43);
+          }
+      }
+}); 
+
+//test
 
  /*$(window).scroll(function() {
     if($(window).scrollTop() > 100){

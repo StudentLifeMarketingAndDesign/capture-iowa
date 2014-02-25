@@ -10,7 +10,7 @@ module.exports = function(grunt) {
         src: [
           'division-simple/bower_components/jquery/jquery.js',
           'division-simple/bower_components/magnific-popup/dist/jquery.magnific-popup.js',
-          'division-simple/vendor/sass-bootstrap/sass-bootstrap.min.js',
+          'division-simple/vendor/sass-bootstrap/js/sass-bootstrap.min.js',
           'division-bar/js/division-bar.js',
           'division-simple/js/*.js',
           'themes/captureiowa/js/*.js'
