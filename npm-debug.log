@@ -1,0 +1,1502 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 warn package.json uiowa-captureiowa@0.1.0 No description
+5 warn package.json uiowa-captureiowa@0.1.0 No repository field.
+6 warn package.json uiowa-captureiowa@0.1.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/vagrant/public/capture-iowa',
+8 verbose install   [ 'grunt',
+8 verbose install     'grunt-contrib-jshint',
+8 verbose install     'grunt-contrib-nodeunit',
+8 verbose install     'grunt-contrib-uglify',
+8 verbose install     'grunt-contrib-sass',
+8 verbose install     'grunt-contrib-imagemin',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-contrib-compass',
+8 verbose install     'grunt-simple-watch',
+8 verbose install     'grunt-fetch-pages' ] ]
+9 info preinstall uiowa-captureiowa@0.1.0
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'grunt-contrib-uglify@~0.2.2', null ]
+12 verbose cache add name=undefined spec="grunt-contrib-uglify@~0.2.2" args=["grunt-contrib-uglify@~0.2.2",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'grunt-contrib-uglify@~0.2.2',
+13 verbose parsed url   path: 'grunt-contrib-uglify@~0.2.2',
+13 verbose parsed url   href: 'grunt-contrib-uglify@~0.2.2' }
+14 verbose cache add name="grunt-contrib-uglify" spec="~0.2.2" args=["grunt-contrib-uglify","~0.2.2"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '~0.2.2',
+15 verbose parsed url   path: '~0.2.2',
+15 verbose parsed url   href: '~0.2.2' }
+16 verbose addNamed [ 'grunt-contrib-uglify', '~0.2.2' ]
+17 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+18 verbose cache add [ 'grunt@~0.4.2', null ]
+19 verbose cache add name=undefined spec="grunt@~0.4.2" args=["grunt@~0.4.2",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'grunt@~0.4.2',
+20 verbose parsed url   path: 'grunt@~0.4.2',
+20 verbose parsed url   href: 'grunt@~0.4.2' }
+21 verbose cache add name="grunt" spec="~0.4.2" args=["grunt","~0.4.2"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '~0.4.2',
+22 verbose parsed url   path: '~0.4.2',
+22 verbose parsed url   href: '~0.4.2' }
+23 verbose addNamed [ 'grunt', '~0.4.2' ]
+24 verbose addNamed [ null, '>=0.4.2-0 <0.5.0-0' ]
+25 verbose cache add [ 'grunt-contrib-jshint@~0.6.3', null ]
+26 verbose cache add name=undefined spec="grunt-contrib-jshint@~0.6.3" args=["grunt-contrib-jshint@~0.6.3",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'grunt-contrib-jshint@~0.6.3',
+27 verbose parsed url   path: 'grunt-contrib-jshint@~0.6.3',
+27 verbose parsed url   href: 'grunt-contrib-jshint@~0.6.3' }
+28 verbose cache add name="grunt-contrib-jshint" spec="~0.6.3" args=["grunt-contrib-jshint","~0.6.3"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '~0.6.3',
+29 verbose parsed url   path: '~0.6.3',
+29 verbose parsed url   href: '~0.6.3' }
+30 verbose addNamed [ 'grunt-contrib-jshint', '~0.6.3' ]
+31 verbose addNamed [ null, '>=0.6.3-0 <0.7.0-0' ]
+32 verbose cache add [ 'grunt-contrib-sass@~0.6.0', null ]
+33 verbose cache add name=undefined spec="grunt-contrib-sass@~0.6.0" args=["grunt-contrib-sass@~0.6.0",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'grunt-contrib-sass@~0.6.0',
+34 verbose parsed url   path: 'grunt-contrib-sass@~0.6.0',
+34 verbose parsed url   href: 'grunt-contrib-sass@~0.6.0' }
+35 verbose cache add name="grunt-contrib-sass" spec="~0.6.0" args=["grunt-contrib-sass","~0.6.0"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '~0.6.0',
+36 verbose parsed url   path: '~0.6.0',
+36 verbose parsed url   href: '~0.6.0' }
+37 verbose addNamed [ 'grunt-contrib-sass', '~0.6.0' ]
+38 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+39 verbose cache add [ 'grunt-contrib-nodeunit@~0.2.0', null ]
+40 verbose cache add name=undefined spec="grunt-contrib-nodeunit@~0.2.0" args=["grunt-contrib-nodeunit@~0.2.0",null]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: 'grunt-contrib-nodeunit@~0.2.0',
+41 verbose parsed url   path: 'grunt-contrib-nodeunit@~0.2.0',
+41 verbose parsed url   href: 'grunt-contrib-nodeunit@~0.2.0' }
+42 verbose cache add name="grunt-contrib-nodeunit" spec="~0.2.0" args=["grunt-contrib-nodeunit","~0.2.0"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '~0.2.0',
+43 verbose parsed url   path: '~0.2.0',
+43 verbose parsed url   href: '~0.2.0' }
+44 verbose addNamed [ 'grunt-contrib-nodeunit', '~0.2.0' ]
+45 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+46 verbose cache add [ 'grunt-contrib-imagemin@~0.4.0', null ]
+47 verbose cache add name=undefined spec="grunt-contrib-imagemin@~0.4.0" args=["grunt-contrib-imagemin@~0.4.0",null]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'grunt-contrib-imagemin@~0.4.0',
+48 verbose parsed url   path: 'grunt-contrib-imagemin@~0.4.0',
+48 verbose parsed url   href: 'grunt-contrib-imagemin@~0.4.0' }
+49 verbose cache add name="grunt-contrib-imagemin" spec="~0.4.0" args=["grunt-contrib-imagemin","~0.4.0"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '~0.4.0',
+50 verbose parsed url   path: '~0.4.0',
+50 verbose parsed url   href: '~0.4.0' }
+51 verbose addNamed [ 'grunt-contrib-imagemin', '~0.4.0' ]
+52 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+53 verbose cache add [ 'grunt-contrib-concat@~0.3.0', null ]
+54 verbose cache add name=undefined spec="grunt-contrib-concat@~0.3.0" args=["grunt-contrib-concat@~0.3.0",null]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: 'grunt-contrib-concat@~0.3.0',
+55 verbose parsed url   path: 'grunt-contrib-concat@~0.3.0',
+55 verbose parsed url   href: 'grunt-contrib-concat@~0.3.0' }
+56 verbose cache add name="grunt-contrib-concat" spec="~0.3.0" args=["grunt-contrib-concat","~0.3.0"]
+57 verbose parsed url { protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: '~0.3.0',
+57 verbose parsed url   path: '~0.3.0',
+57 verbose parsed url   href: '~0.3.0' }
+58 verbose addNamed [ 'grunt-contrib-concat', '~0.3.0' ]
+59 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+60 verbose cache add [ 'grunt-contrib-watch@~0.5.3', null ]
+61 verbose cache add name=undefined spec="grunt-contrib-watch@~0.5.3" args=["grunt-contrib-watch@~0.5.3",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'grunt-contrib-watch@~0.5.3',
+62 verbose parsed url   path: 'grunt-contrib-watch@~0.5.3',
+62 verbose parsed url   href: 'grunt-contrib-watch@~0.5.3' }
+63 verbose cache add name="grunt-contrib-watch" spec="~0.5.3" args=["grunt-contrib-watch","~0.5.3"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '~0.5.3',
+64 verbose parsed url   path: '~0.5.3',
+64 verbose parsed url   href: '~0.5.3' }
+65 verbose addNamed [ 'grunt-contrib-watch', '~0.5.3' ]
+66 verbose addNamed [ null, '>=0.5.3-0 <0.6.0-0' ]
+67 verbose cache add [ 'grunt-contrib-compass@~0.7.0', null ]
+68 verbose cache add name=undefined spec="grunt-contrib-compass@~0.7.0" args=["grunt-contrib-compass@~0.7.0",null]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'grunt-contrib-compass@~0.7.0',
+69 verbose parsed url   path: 'grunt-contrib-compass@~0.7.0',
+69 verbose parsed url   href: 'grunt-contrib-compass@~0.7.0' }
+70 verbose cache add name="grunt-contrib-compass" spec="~0.7.0" args=["grunt-contrib-compass","~0.7.0"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '~0.7.0',
+71 verbose parsed url   path: '~0.7.0',
+71 verbose parsed url   href: '~0.7.0' }
+72 verbose addNamed [ 'grunt-contrib-compass', '~0.7.0' ]
+73 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+74 verbose cache add [ 'grunt-simple-watch@~0.1.2', null ]
+75 verbose cache add name=undefined spec="grunt-simple-watch@~0.1.2" args=["grunt-simple-watch@~0.1.2",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'grunt-simple-watch@~0.1.2',
+76 verbose parsed url   path: 'grunt-simple-watch@~0.1.2',
+76 verbose parsed url   href: 'grunt-simple-watch@~0.1.2' }
+77 verbose cache add name="grunt-simple-watch" spec="~0.1.2" args=["grunt-simple-watch","~0.1.2"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '~0.1.2',
+78 verbose parsed url   path: '~0.1.2',
+78 verbose parsed url   href: '~0.1.2' }
+79 verbose addNamed [ 'grunt-simple-watch', '~0.1.2' ]
+80 verbose addNamed [ null, '>=0.1.2-0 <0.2.0-0' ]
+81 verbose cache add [ 'grunt-fetch-pages@~0.2.1', null ]
+82 verbose cache add name=undefined spec="grunt-fetch-pages@~0.2.1" args=["grunt-fetch-pages@~0.2.1",null]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'grunt-fetch-pages@~0.2.1',
+83 verbose parsed url   path: 'grunt-fetch-pages@~0.2.1',
+83 verbose parsed url   href: 'grunt-fetch-pages@~0.2.1' }
+84 verbose cache add name="grunt-fetch-pages" spec="~0.2.1" args=["grunt-fetch-pages","~0.2.1"]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: '~0.2.1',
+85 verbose parsed url   path: '~0.2.1',
+85 verbose parsed url   href: '~0.2.1' }
+86 verbose addNamed [ 'grunt-fetch-pages', '~0.2.1' ]
+87 verbose addNamed [ null, '>=0.2.1-0 <0.3.0-0' ]
+88 silly lockFile deac4dba-grunt-contrib-uglify-0-2-2 grunt-contrib-uglify@~0.2.2
+89 verbose lock grunt-contrib-uglify@~0.2.2 /home/vagrant/.npm/deac4dba-grunt-contrib-uglify-0-2-2.lock
+90 silly lockFile 73260332-grunt-0-4-2 grunt@~0.4.2
+91 verbose lock grunt@~0.4.2 /home/vagrant/.npm/73260332-grunt-0-4-2.lock
+92 silly lockFile 6f38214b-grunt-contrib-jshint-0-6-3 grunt-contrib-jshint@~0.6.3
+93 verbose lock grunt-contrib-jshint@~0.6.3 /home/vagrant/.npm/6f38214b-grunt-contrib-jshint-0-6-3.lock
+94 silly lockFile 39cb2eb9-grunt-contrib-sass-0-6-0 grunt-contrib-sass@~0.6.0
+95 verbose lock grunt-contrib-sass@~0.6.0 /home/vagrant/.npm/39cb2eb9-grunt-contrib-sass-0-6-0.lock
+96 silly lockFile ac0ef488-grunt-contrib-nodeunit-0-2-0 grunt-contrib-nodeunit@~0.2.0
+97 verbose lock grunt-contrib-nodeunit@~0.2.0 /home/vagrant/.npm/ac0ef488-grunt-contrib-nodeunit-0-2-0.lock
+98 silly lockFile bb04df70-grunt-contrib-imagemin-0-4-0 grunt-contrib-imagemin@~0.4.0
+99 verbose lock grunt-contrib-imagemin@~0.4.0 /home/vagrant/.npm/bb04df70-grunt-contrib-imagemin-0-4-0.lock
+100 silly lockFile 0e44e68e-grunt-contrib-concat-0-3-0 grunt-contrib-concat@~0.3.0
+101 verbose lock grunt-contrib-concat@~0.3.0 /home/vagrant/.npm/0e44e68e-grunt-contrib-concat-0-3-0.lock
+102 silly lockFile b469febc-grunt-contrib-watch-0-5-3 grunt-contrib-watch@~0.5.3
+103 verbose lock grunt-contrib-watch@~0.5.3 /home/vagrant/.npm/b469febc-grunt-contrib-watch-0-5-3.lock
+104 silly lockFile 089c3a2f-grunt-contrib-compass-0-7-0 grunt-contrib-compass@~0.7.0
+105 verbose lock grunt-contrib-compass@~0.7.0 /home/vagrant/.npm/089c3a2f-grunt-contrib-compass-0-7-0.lock
+106 silly lockFile cd5daa7a-grunt-simple-watch-0-1-2 grunt-simple-watch@~0.1.2
+107 verbose lock grunt-simple-watch@~0.1.2 /home/vagrant/.npm/cd5daa7a-grunt-simple-watch-0-1-2.lock
+108 silly lockFile 7c1dc322-grunt-fetch-pages-0-2-1 grunt-fetch-pages@~0.2.1
+109 verbose lock grunt-fetch-pages@~0.2.1 /home/vagrant/.npm/7c1dc322-grunt-fetch-pages-0-2-1.lock
+110 silly addNameRange { name: 'grunt-contrib-uglify',
+110 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+110 silly addNameRange   hasData: false }
+111 silly addNameRange { name: 'grunt', range: '>=0.4.2-0 <0.5.0-0', hasData: false }
+112 silly addNameRange { name: 'grunt-contrib-jshint',
+112 silly addNameRange   range: '>=0.6.3-0 <0.7.0-0',
+112 silly addNameRange   hasData: false }
+113 silly addNameRange { name: 'grunt-contrib-sass',
+113 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+113 silly addNameRange   hasData: false }
+114 silly addNameRange { name: 'grunt-contrib-nodeunit',
+114 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+114 silly addNameRange   hasData: false }
+115 silly addNameRange { name: 'grunt-contrib-imagemin',
+115 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+115 silly addNameRange   hasData: false }
+116 silly addNameRange { name: 'grunt-contrib-concat',
+116 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+116 silly addNameRange   hasData: false }
+117 silly addNameRange { name: 'grunt-contrib-watch',
+117 silly addNameRange   range: '>=0.5.3-0 <0.6.0-0',
+117 silly addNameRange   hasData: false }
+118 silly addNameRange { name: 'grunt-contrib-compass',
+118 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+118 silly addNameRange   hasData: false }
+119 silly addNameRange { name: 'grunt-simple-watch',
+119 silly addNameRange   range: '>=0.1.2-0 <0.2.0-0',
+119 silly addNameRange   hasData: false }
+120 silly addNameRange { name: 'grunt-fetch-pages',
+120 silly addNameRange   range: '>=0.2.1-0 <0.3.0-0',
+120 silly addNameRange   hasData: false }
+121 verbose url raw grunt-contrib-uglify
+122 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+123 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+124 info trying registry request attempt 1 at 16:15:26
+125 verbose etag "C2ZEX2IES2R1JF6SOZ3F298R5"
+126 http GET https://registry.npmjs.org/grunt-contrib-uglify
+127 verbose url raw grunt
+128 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+129 verbose url resolved https://registry.npmjs.org/grunt
+130 info trying registry request attempt 1 at 16:15:26
+131 verbose etag "6SHMPFHYMAQBBLQH79VSOVA1U"
+132 http GET https://registry.npmjs.org/grunt
+133 verbose url raw grunt-contrib-jshint
+134 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+135 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+136 info trying registry request attempt 1 at 16:15:26
+137 verbose etag "49S12IVHU08BZ7KFT84744EWP"
+138 http GET https://registry.npmjs.org/grunt-contrib-jshint
+139 verbose url raw grunt-contrib-sass
+140 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-sass' ]
+141 verbose url resolved https://registry.npmjs.org/grunt-contrib-sass
+142 info trying registry request attempt 1 at 16:15:26
+143 verbose etag "2TEW8Y6PCPRLLVHJX4KENUNIK"
+144 http GET https://registry.npmjs.org/grunt-contrib-sass
+145 verbose url raw grunt-contrib-nodeunit
+146 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-nodeunit' ]
+147 verbose url resolved https://registry.npmjs.org/grunt-contrib-nodeunit
+148 info trying registry request attempt 1 at 16:15:26
+149 verbose etag "E9OX5CV9GU2G1PTVYCZPKV2WV"
+150 http GET https://registry.npmjs.org/grunt-contrib-nodeunit
+151 verbose url raw grunt-contrib-imagemin
+152 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+153 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+154 info trying registry request attempt 1 at 16:15:26
+155 verbose etag "3VKE4TFO33GW77TUTP887RO30"
+156 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+157 verbose url raw grunt-contrib-concat
+158 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-concat' ]
+159 verbose url resolved https://registry.npmjs.org/grunt-contrib-concat
+160 info trying registry request attempt 1 at 16:15:26
+161 verbose etag "8B2OSJJG4AG6S8HWJBGJEF4MW"
+162 http GET https://registry.npmjs.org/grunt-contrib-concat
+163 verbose url raw grunt-contrib-watch
+164 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+165 verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+166 info trying registry request attempt 1 at 16:15:26
+167 verbose etag "DKCM3AIZA0ARMR3YWSXHI9P2O"
+168 http GET https://registry.npmjs.org/grunt-contrib-watch
+169 verbose url raw grunt-contrib-compass
+170 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-compass' ]
+171 verbose url resolved https://registry.npmjs.org/grunt-contrib-compass
+172 info trying registry request attempt 1 at 16:15:26
+173 verbose etag "5RGXH953H1SXDA9CUSA8B0JIH"
+174 http GET https://registry.npmjs.org/grunt-contrib-compass
+175 verbose url raw grunt-simple-watch
+176 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-simple-watch' ]
+177 verbose url resolved https://registry.npmjs.org/grunt-simple-watch
+178 info trying registry request attempt 1 at 16:15:26
+179 verbose etag "49AGI1NU1LAUUDLIT4TJ32W6Q"
+180 http GET https://registry.npmjs.org/grunt-simple-watch
+181 verbose url raw grunt-fetch-pages
+182 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-fetch-pages' ]
+183 verbose url resolved https://registry.npmjs.org/grunt-fetch-pages
+184 info trying registry request attempt 1 at 16:15:26
+185 verbose etag "DCM38JNQNCF71HH6DT0MKL8QV"
+186 http GET https://registry.npmjs.org/grunt-fetch-pages
+187 http 304 https://registry.npmjs.org/grunt-contrib-uglify
+188 silly registry.get cb [ 304,
+188 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+188 silly registry.get     server: 'Apache',
+188 silly registry.get     via: '1.1 varnish',
+188 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+188 silly registry.get     'cache-control': 'max-age=1',
+188 silly registry.get     etag: '"C2ZEX2IES2R1JF6SOZ3F298R5"',
+188 silly registry.get     'x-served-by': 'cache-d97-DAL',
+188 silly registry.get     'x-cache': 'HIT',
+188 silly registry.get     'x-cache-hits': '2',
+188 silly registry.get     'x-timer': 'S1396282526.510550737,VS0,VE0',
+188 silly registry.get     vary: 'Accept',
+188 silly registry.get     'content-length': '0',
+188 silly registry.get     'keep-alive': 'timeout=10, max=50',
+188 silly registry.get     connection: 'Keep-Alive' } ]
+189 verbose etag grunt-contrib-uglify from cache
+190 http 304 https://registry.npmjs.org/grunt
+191 silly registry.get cb [ 304,
+191 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+191 silly registry.get     server: 'Apache',
+191 silly registry.get     via: '1.1 varnish',
+191 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+191 silly registry.get     'cache-control': 'max-age=1',
+191 silly registry.get     etag: '"6SHMPFHYMAQBBLQH79VSOVA1U"',
+191 silly registry.get     'x-served-by': 'cache-d96-DAL',
+191 silly registry.get     'x-cache': 'HIT',
+191 silly registry.get     'x-cache-hits': '1',
+191 silly registry.get     'x-timer': 'S1396282526.514055729,VS0,VE1',
+191 silly registry.get     vary: 'Accept',
+191 silly registry.get     'content-length': '0',
+191 silly registry.get     'keep-alive': 'timeout=10, max=50',
+191 silly registry.get     connection: 'Keep-Alive' } ]
+192 verbose etag grunt from cache
+193 http 304 https://registry.npmjs.org/grunt-contrib-jshint
+194 silly registry.get cb [ 304,
+194 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+194 silly registry.get     server: 'Apache',
+194 silly registry.get     via: '1.1 varnish',
+194 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+194 silly registry.get     'cache-control': 'max-age=1',
+194 silly registry.get     etag: '"49S12IVHU08BZ7KFT84744EWP"',
+194 silly registry.get     'x-served-by': 'cache-d97-DAL',
+194 silly registry.get     'x-cache': 'HIT',
+194 silly registry.get     'x-cache-hits': '1',
+194 silly registry.get     'x-timer': 'S1396282526.518491745,VS0,VE1',
+194 silly registry.get     vary: 'Accept',
+194 silly registry.get     'content-length': '0',
+194 silly registry.get     'keep-alive': 'timeout=10, max=50',
+194 silly registry.get     connection: 'Keep-Alive' } ]
+195 verbose etag grunt-contrib-jshint from cache
+196 silly addNameRange number 2 { name: 'grunt-contrib-uglify',
+196 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+196 silly addNameRange   hasData: true }
+197 silly addNameRange versions [ 'grunt-contrib-uglify',
+197 silly addNameRange   [ '0.1.0',
+197 silly addNameRange     '0.1.1',
+197 silly addNameRange     '0.1.2',
+197 silly addNameRange     '0.2.0',
+197 silly addNameRange     '0.2.1',
+197 silly addNameRange     '0.2.2',
+197 silly addNameRange     '0.2.3',
+197 silly addNameRange     '0.2.4',
+197 silly addNameRange     '0.2.5',
+197 silly addNameRange     '0.2.6',
+197 silly addNameRange     '0.2.7',
+197 silly addNameRange     '0.3.0',
+197 silly addNameRange     '0.3.1',
+197 silly addNameRange     '0.1.1-rc5',
+197 silly addNameRange     '0.1.1-rc6',
+197 silly addNameRange     '0.3.2',
+197 silly addNameRange     '0.3.3',
+197 silly addNameRange     '0.4.0' ] ]
+198 verbose addNamed [ 'grunt-contrib-uglify', '0.2.7' ]
+199 verbose addNamed [ '0.2.7', '0.2.7' ]
+200 silly lockFile 480328f6-grunt-contrib-uglify-0-2-7 grunt-contrib-uglify@0.2.7
+201 verbose lock grunt-contrib-uglify@0.2.7 /home/vagrant/.npm/480328f6-grunt-contrib-uglify-0-2-7.lock
+202 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.2-0 <0.5.0-0', hasData: true }
+203 silly addNameRange versions [ 'grunt',
+203 silly addNameRange   [ '0.1.0',
+203 silly addNameRange     '0.1.1',
+203 silly addNameRange     '0.1.2',
+203 silly addNameRange     '0.2.0',
+203 silly addNameRange     '0.2.1',
+203 silly addNameRange     '0.2.2',
+203 silly addNameRange     '0.2.3',
+203 silly addNameRange     '0.2.4',
+203 silly addNameRange     '0.2.5',
+203 silly addNameRange     '0.2.6',
+203 silly addNameRange     '0.2.7',
+203 silly addNameRange     '0.2.8',
+203 silly addNameRange     '0.2.9',
+203 silly addNameRange     '0.2.10',
+203 silly addNameRange     '0.2.11',
+203 silly addNameRange     '0.2.12',
+203 silly addNameRange     '0.2.13',
+203 silly addNameRange     '0.2.14',
+203 silly addNameRange     '0.2.15',
+203 silly addNameRange     '0.3.0',
+203 silly addNameRange     '0.3.1',
+203 silly addNameRange     '0.3.2',
+203 silly addNameRange     '0.3.3',
+203 silly addNameRange     '0.3.4',
+203 silly addNameRange     '0.3.5',
+203 silly addNameRange     '0.3.6',
+203 silly addNameRange     '0.3.7',
+203 silly addNameRange     '0.3.8',
+203 silly addNameRange     '0.3.9',
+203 silly addNameRange     '0.3.10',
+203 silly addNameRange     '0.3.11',
+203 silly addNameRange     '0.3.12',
+203 silly addNameRange     '0.3.13',
+203 silly addNameRange     '0.3.14',
+203 silly addNameRange     '0.3.15',
+203 silly addNameRange     '0.3.16',
+203 silly addNameRange     '0.3.17',
+203 silly addNameRange     '0.4.0',
+203 silly addNameRange     '0.4.1',
+203 silly addNameRange     '0.4.2',
+203 silly addNameRange     '0.4.3',
+203 silly addNameRange     '0.4.4',
+203 silly addNameRange     '0.3.13-a',
+203 silly addNameRange     '0.4.0-a',
+203 silly addNameRange     '0.4.0-rc1',
+203 silly addNameRange     '0.4.0-rc2',
+203 silly addNameRange     '0.4.0-rc3',
+203 silly addNameRange     '0.4.0-rc4',
+203 silly addNameRange     '0.4.0-rc5',
+203 silly addNameRange     '0.4.0-rc6',
+203 silly addNameRange     '0.4.0-rc7',
+203 silly addNameRange     '0.4.0-rc8' ] ]
+204 verbose addNamed [ 'grunt', '0.4.4' ]
+205 verbose addNamed [ '0.4.4', '0.4.4' ]
+206 silly lockFile 6f9e9a40-grunt-0-4-4 grunt@0.4.4
+207 verbose lock grunt@0.4.4 /home/vagrant/.npm/6f9e9a40-grunt-0-4-4.lock
+208 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+208 silly addNameRange   range: '>=0.6.3-0 <0.7.0-0',
+208 silly addNameRange   hasData: true }
+209 silly addNameRange versions [ 'grunt-contrib-jshint',
+209 silly addNameRange   [ '0.1.0',
+209 silly addNameRange     '0.1.1',
+209 silly addNameRange     '0.2.0',
+209 silly addNameRange     '0.3.0',
+209 silly addNameRange     '0.4.0',
+209 silly addNameRange     '0.4.1',
+209 silly addNameRange     '0.4.2',
+209 silly addNameRange     '0.4.3',
+209 silly addNameRange     '0.5.0',
+209 silly addNameRange     '0.5.1',
+209 silly addNameRange     '0.5.2',
+209 silly addNameRange     '0.5.3',
+209 silly addNameRange     '0.5.4',
+209 silly addNameRange     '0.6.0',
+209 silly addNameRange     '0.6.1',
+209 silly addNameRange     '0.6.2',
+209 silly addNameRange     '0.6.3',
+209 silly addNameRange     '0.6.4',
+209 silly addNameRange     '0.6.5',
+209 silly addNameRange     '0.7.0',
+209 silly addNameRange     '0.7.1',
+209 silly addNameRange     '0.7.2',
+209 silly addNameRange     '0.8.0',
+209 silly addNameRange     '0.9.0',
+209 silly addNameRange     '0.9.1',
+209 silly addNameRange     '0.9.2',
+209 silly addNameRange     '0.1.1-rc5',
+209 silly addNameRange     '0.1.1-rc6' ] ]
+210 verbose addNamed [ 'grunt-contrib-jshint', '0.6.5' ]
+211 verbose addNamed [ '0.6.5', '0.6.5' ]
+212 silly lockFile d0b3f61f-grunt-contrib-jshint-0-6-5 grunt-contrib-jshint@0.6.5
+213 verbose lock grunt-contrib-jshint@0.6.5 /home/vagrant/.npm/d0b3f61f-grunt-contrib-jshint-0-6-5.lock
+214 silly lockFile 480328f6-grunt-contrib-uglify-0-2-7 grunt-contrib-uglify@0.2.7
+215 silly lockFile 480328f6-grunt-contrib-uglify-0-2-7 grunt-contrib-uglify@0.2.7
+216 silly lockFile 6f9e9a40-grunt-0-4-4 grunt@0.4.4
+217 silly lockFile 6f9e9a40-grunt-0-4-4 grunt@0.4.4
+218 silly lockFile d0b3f61f-grunt-contrib-jshint-0-6-5 grunt-contrib-jshint@0.6.5
+219 silly lockFile d0b3f61f-grunt-contrib-jshint-0-6-5 grunt-contrib-jshint@0.6.5
+220 silly lockFile deac4dba-grunt-contrib-uglify-0-2-2 grunt-contrib-uglify@~0.2.2
+221 silly lockFile deac4dba-grunt-contrib-uglify-0-2-2 grunt-contrib-uglify@~0.2.2
+222 silly lockFile 73260332-grunt-0-4-2 grunt@~0.4.2
+223 silly lockFile 73260332-grunt-0-4-2 grunt@~0.4.2
+224 silly lockFile 6f38214b-grunt-contrib-jshint-0-6-3 grunt-contrib-jshint@~0.6.3
+225 silly lockFile 6f38214b-grunt-contrib-jshint-0-6-3 grunt-contrib-jshint@~0.6.3
+226 http 304 https://registry.npmjs.org/grunt-contrib-watch
+227 silly registry.get cb [ 304,
+227 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+227 silly registry.get     server: 'Apache',
+227 silly registry.get     via: '1.1 varnish',
+227 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+227 silly registry.get     'cache-control': 'max-age=1',
+227 silly registry.get     etag: '"DKCM3AIZA0ARMR3YWSXHI9P2O"',
+227 silly registry.get     'x-served-by': 'cache-d97-DAL',
+227 silly registry.get     'x-cache': 'HIT',
+227 silly registry.get     'x-cache-hits': '1',
+227 silly registry.get     'x-timer': 'S1396282526.569551945,VS0,VE34',
+227 silly registry.get     vary: 'Accept',
+227 silly registry.get     'content-length': '0',
+227 silly registry.get     'keep-alive': 'timeout=10, max=49',
+227 silly registry.get     connection: 'Keep-Alive' } ]
+228 verbose etag grunt-contrib-watch from cache
+229 http 304 https://registry.npmjs.org/grunt-contrib-concat
+230 silly registry.get cb [ 304,
+230 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+230 silly registry.get     server: 'Apache',
+230 silly registry.get     via: '1.1 varnish',
+230 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+230 silly registry.get     'cache-control': 'max-age=1',
+230 silly registry.get     etag: '"8B2OSJJG4AG6S8HWJBGJEF4MW"',
+230 silly registry.get     'x-served-by': 'cache-d96-DAL',
+230 silly registry.get     'x-cache': 'MISS',
+230 silly registry.get     'x-cache-hits': '0',
+230 silly registry.get     'x-timer': 'S1396282526.562724829,VS0,VE41',
+230 silly registry.get     vary: 'Accept',
+230 silly registry.get     'content-length': '0',
+230 silly registry.get     'keep-alive': 'timeout=10, max=49',
+230 silly registry.get     connection: 'Keep-Alive' } ]
+231 verbose etag grunt-contrib-concat from cache
+232 silly addNameRange number 2 { name: 'grunt-contrib-watch',
+232 silly addNameRange   range: '>=0.5.3-0 <0.6.0-0',
+232 silly addNameRange   hasData: true }
+233 silly addNameRange versions [ 'grunt-contrib-watch',
+233 silly addNameRange   [ '0.1.0',
+233 silly addNameRange     '0.1.1',
+233 silly addNameRange     '0.1.2',
+233 silly addNameRange     '0.1.3',
+233 silly addNameRange     '0.1.4',
+233 silly addNameRange     '0.2.0',
+233 silly addNameRange     '0.3.0',
+233 silly addNameRange     '0.3.1',
+233 silly addNameRange     '0.4.0',
+233 silly addNameRange     '0.4.1',
+233 silly addNameRange     '0.4.2',
+233 silly addNameRange     '0.4.3',
+233 silly addNameRange     '0.4.4',
+233 silly addNameRange     '0.5.0',
+233 silly addNameRange     '0.5.1',
+233 silly addNameRange     '0.5.2',
+233 silly addNameRange     '0.5.3',
+233 silly addNameRange     '0.6.0',
+233 silly addNameRange     '0.6.1',
+233 silly addNameRange     '0.2.0-a',
+233 silly addNameRange     '0.2.0-rc5',
+233 silly addNameRange     '0.2.0-rc7' ] ]
+234 verbose addNamed [ 'grunt-contrib-watch', '0.5.3' ]
+235 verbose addNamed [ '0.5.3', '0.5.3' ]
+236 silly lockFile d70d7cec-grunt-contrib-watch-0-5-3 grunt-contrib-watch@0.5.3
+237 verbose lock grunt-contrib-watch@0.5.3 /home/vagrant/.npm/d70d7cec-grunt-contrib-watch-0-5-3.lock
+238 silly addNameRange number 2 { name: 'grunt-contrib-concat',
+238 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+238 silly addNameRange   hasData: true }
+239 silly addNameRange versions [ 'grunt-contrib-concat',
+239 silly addNameRange   [ '0.1.0',
+239 silly addNameRange     '0.1.1',
+239 silly addNameRange     '0.1.2',
+239 silly addNameRange     '0.1.3',
+239 silly addNameRange     '0.2.0',
+239 silly addNameRange     '0.3.0',
+239 silly addNameRange     '0.4.0',
+239 silly addNameRange     '0.1.2-rc5',
+239 silly addNameRange     '0.1.2-rc6' ] ]
+240 verbose addNamed [ 'grunt-contrib-concat', '0.3.0' ]
+241 verbose addNamed [ '0.3.0', '0.3.0' ]
+242 silly lockFile 11d10dc6-grunt-contrib-concat-0-3-0 grunt-contrib-concat@0.3.0
+243 verbose lock grunt-contrib-concat@0.3.0 /home/vagrant/.npm/11d10dc6-grunt-contrib-concat-0-3-0.lock
+244 silly lockFile d70d7cec-grunt-contrib-watch-0-5-3 grunt-contrib-watch@0.5.3
+245 silly lockFile d70d7cec-grunt-contrib-watch-0-5-3 grunt-contrib-watch@0.5.3
+246 silly lockFile 11d10dc6-grunt-contrib-concat-0-3-0 grunt-contrib-concat@0.3.0
+247 silly lockFile 11d10dc6-grunt-contrib-concat-0-3-0 grunt-contrib-concat@0.3.0
+248 silly lockFile b469febc-grunt-contrib-watch-0-5-3 grunt-contrib-watch@~0.5.3
+249 silly lockFile b469febc-grunt-contrib-watch-0-5-3 grunt-contrib-watch@~0.5.3
+250 silly lockFile 0e44e68e-grunt-contrib-concat-0-3-0 grunt-contrib-concat@~0.3.0
+251 silly lockFile 0e44e68e-grunt-contrib-concat-0-3-0 grunt-contrib-concat@~0.3.0
+252 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+253 silly registry.get cb [ 304,
+253 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+253 silly registry.get     server: 'Apache',
+253 silly registry.get     via: '1.1 varnish',
+253 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+253 silly registry.get     'cache-control': 'max-age=1',
+253 silly registry.get     etag: '"3VKE4TFO33GW77TUTP887RO30"',
+253 silly registry.get     'x-served-by': 'cache-d97-DAL',
+253 silly registry.get     'x-cache': 'MISS',
+253 silly registry.get     'x-cache-hits': '0',
+253 silly registry.get     'x-timer': 'S1396282526.555774927,VS0,VE126',
+253 silly registry.get     vary: 'Accept',
+253 silly registry.get     'content-length': '0',
+253 silly registry.get     'keep-alive': 'timeout=10, max=49',
+253 silly registry.get     connection: 'Keep-Alive' } ]
+254 verbose etag grunt-contrib-imagemin from cache
+255 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+255 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+255 silly addNameRange   hasData: true }
+256 silly addNameRange versions [ 'grunt-contrib-imagemin',
+256 silly addNameRange   [ '0.1.0',
+256 silly addNameRange     '0.1.1',
+256 silly addNameRange     '0.1.2',
+256 silly addNameRange     '0.1.3',
+256 silly addNameRange     '0.1.4',
+256 silly addNameRange     '0.1.1-rc7',
+256 silly addNameRange     '0.1.1-rc8',
+256 silly addNameRange     '0.2.0',
+256 silly addNameRange     '0.2.1',
+256 silly addNameRange     '0.3.0',
+256 silly addNameRange     '0.4.0',
+256 silly addNameRange     '0.4.1',
+256 silly addNameRange     '0.5.0',
+256 silly addNameRange     '0.6.0' ] ]
+257 verbose addNamed [ 'grunt-contrib-imagemin', '0.4.1' ]
+258 verbose addNamed [ '0.4.1', '0.4.1' ]
+259 silly lockFile 9816bfaa-grunt-contrib-imagemin-0-4-1 grunt-contrib-imagemin@0.4.1
+260 verbose lock grunt-contrib-imagemin@0.4.1 /home/vagrant/.npm/9816bfaa-grunt-contrib-imagemin-0-4-1.lock
+261 silly lockFile 9816bfaa-grunt-contrib-imagemin-0-4-1 grunt-contrib-imagemin@0.4.1
+262 silly lockFile 9816bfaa-grunt-contrib-imagemin-0-4-1 grunt-contrib-imagemin@0.4.1
+263 silly lockFile bb04df70-grunt-contrib-imagemin-0-4-0 grunt-contrib-imagemin@~0.4.0
+264 silly lockFile bb04df70-grunt-contrib-imagemin-0-4-0 grunt-contrib-imagemin@~0.4.0
+265 http 304 https://registry.npmjs.org/grunt-contrib-sass
+266 silly registry.get cb [ 304,
+266 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+266 silly registry.get     server: 'Apache',
+266 silly registry.get     via: '1.1 varnish',
+266 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+266 silly registry.get     'cache-control': 'max-age=1',
+266 silly registry.get     etag: '"2TEW8Y6PCPRLLVHJX4KENUNIK"',
+266 silly registry.get     'x-served-by': 'cache-d45-DAL',
+266 silly registry.get     'x-cache': 'MISS',
+266 silly registry.get     'x-cache-hits': '0',
+266 silly registry.get     'x-timer': 'S1396282526.524400949,VS0,VE222',
+266 silly registry.get     vary: 'Accept',
+266 silly registry.get     'content-length': '0',
+266 silly registry.get     'keep-alive': 'timeout=10, max=50',
+266 silly registry.get     connection: 'Keep-Alive' } ]
+267 verbose etag grunt-contrib-sass from cache
+268 http 304 https://registry.npmjs.org/grunt-contrib-nodeunit
+269 silly registry.get cb [ 304,
+269 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+269 silly registry.get     server: 'Apache',
+269 silly registry.get     via: '1.1 varnish',
+269 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+269 silly registry.get     'cache-control': 'max-age=1',
+269 silly registry.get     etag: '"E9OX5CV9GU2G1PTVYCZPKV2WV"',
+269 silly registry.get     'x-served-by': 'cache-d96-DAL',
+269 silly registry.get     'x-cache': 'MISS',
+269 silly registry.get     'x-cache-hits': '0',
+269 silly registry.get     'x-timer': 'S1396282526.527893543,VS0,VE219',
+269 silly registry.get     vary: 'Accept',
+269 silly registry.get     'content-length': '0',
+269 silly registry.get     'keep-alive': 'timeout=10, max=50',
+269 silly registry.get     connection: 'Keep-Alive' } ]
+270 verbose etag grunt-contrib-nodeunit from cache
+271 http 304 https://registry.npmjs.org/grunt-contrib-compass
+272 silly registry.get cb [ 304,
+272 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+272 silly registry.get     server: 'Apache',
+272 silly registry.get     via: '1.1 varnish',
+272 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+272 silly registry.get     'cache-control': 'max-age=1',
+272 silly registry.get     etag: '"5RGXH953H1SXDA9CUSA8B0JIH"',
+272 silly registry.get     'x-served-by': 'cache-d97-DAL',
+272 silly registry.get     'x-cache': 'MISS',
+272 silly registry.get     'x-cache-hits': '0',
+272 silly registry.get     'x-timer': 'S1396282526.645816565,VS0,VE115',
+272 silly registry.get     vary: 'Accept',
+272 silly registry.get     'content-length': '0',
+272 silly registry.get     'keep-alive': 'timeout=10, max=48',
+272 silly registry.get     connection: 'Keep-Alive' } ]
+273 verbose etag grunt-contrib-compass from cache
+274 http 304 https://registry.npmjs.org/grunt-simple-watch
+275 silly registry.get cb [ 304,
+275 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+275 silly registry.get     server: 'Apache',
+275 silly registry.get     via: '1.1 varnish',
+275 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+275 silly registry.get     'cache-control': 'max-age=1',
+275 silly registry.get     etag: '"49AGI1NU1LAUUDLIT4TJ32W6Q"',
+275 silly registry.get     'x-served-by': 'cache-d96-DAL',
+275 silly registry.get     'x-cache': 'MISS',
+275 silly registry.get     'x-cache-hits': '0',
+275 silly registry.get     'x-timer': 'S1396282526.652392864,VS0,VE116',
+275 silly registry.get     vary: 'Accept',
+275 silly registry.get     'content-length': '0',
+275 silly registry.get     'keep-alive': 'timeout=10, max=48',
+275 silly registry.get     connection: 'Keep-Alive' } ]
+276 verbose etag grunt-simple-watch from cache
+277 http 304 https://registry.npmjs.org/grunt-fetch-pages
+278 silly registry.get cb [ 304,
+278 silly registry.get   { date: 'Mon, 31 Mar 2014 16:15:26 GMT',
+278 silly registry.get     server: 'Apache',
+278 silly registry.get     via: '1.1 varnish',
+278 silly registry.get     'last-modified': 'Mon, 31 Mar 2014 16:15:26 GMT',
+278 silly registry.get     'cache-control': 'max-age=1',
+278 silly registry.get     etag: '"DCM38JNQNCF71HH6DT0MKL8QV"',
+278 silly registry.get     'x-served-by': 'cache-d97-DAL',
+278 silly registry.get     'x-cache': 'MISS',
+278 silly registry.get     'x-cache-hits': '0',
+278 silly registry.get     'x-timer': 'S1396282526.724772930,VS0,VE47',
+278 silly registry.get     vary: 'Accept',
+278 silly registry.get     'content-length': '0',
+278 silly registry.get     'keep-alive': 'timeout=10, max=48',
+278 silly registry.get     connection: 'Keep-Alive' } ]
+279 verbose etag grunt-fetch-pages from cache
+280 silly addNameRange number 2 { name: 'grunt-contrib-sass',
+280 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+280 silly addNameRange   hasData: true }
+281 silly addNameRange versions [ 'grunt-contrib-sass',
+281 silly addNameRange   [ '0.1.0',
+281 silly addNameRange     '0.1.1',
+281 silly addNameRange     '0.1.2',
+281 silly addNameRange     '0.1.3',
+281 silly addNameRange     '0.2.0',
+281 silly addNameRange     '0.2.1',
+281 silly addNameRange     '0.2.2',
+281 silly addNameRange     '0.3.0',
+281 silly addNameRange     '0.4.0',
+281 silly addNameRange     '0.4.1',
+281 silly addNameRange     '0.5.0',
+281 silly addNameRange     '0.5.1',
+281 silly addNameRange     '0.6.0',
+281 silly addNameRange     '0.2.2-rc7',
+281 silly addNameRange     '0.7.0',
+281 silly addNameRange     '0.7.1',
+281 silly addNameRange     '0.7.2',
+281 silly addNameRange     '0.7.3' ] ]
+282 verbose addNamed [ 'grunt-contrib-sass', '0.6.0' ]
+283 verbose addNamed [ '0.6.0', '0.6.0' ]
+284 silly lockFile 7dd4ef4e-grunt-contrib-sass-0-6-0 grunt-contrib-sass@0.6.0
+285 verbose lock grunt-contrib-sass@0.6.0 /home/vagrant/.npm/7dd4ef4e-grunt-contrib-sass-0-6-0.lock
+286 silly addNameRange number 2 { name: 'grunt-contrib-nodeunit',
+286 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+286 silly addNameRange   hasData: true }
+287 silly addNameRange versions [ 'grunt-contrib-nodeunit',
+287 silly addNameRange   [ '0.1.0',
+287 silly addNameRange     '0.1.1',
+287 silly addNameRange     '0.1.2',
+287 silly addNameRange     '0.2.0',
+287 silly addNameRange     '0.2.1',
+287 silly addNameRange     '0.2.2',
+287 silly addNameRange     '0.3.0',
+287 silly addNameRange     '0.1.2-rc5',
+287 silly addNameRange     '0.1.2-rc6',
+287 silly addNameRange     '0.3.1',
+287 silly addNameRange     '0.3.2',
+287 silly addNameRange     '0.3.3' ] ]
+288 verbose addNamed [ 'grunt-contrib-nodeunit', '0.2.2' ]
+289 verbose addNamed [ '0.2.2', '0.2.2' ]
+290 silly lockFile 483e218a-grunt-contrib-nodeunit-0-2-2 grunt-contrib-nodeunit@0.2.2
+291 verbose lock grunt-contrib-nodeunit@0.2.2 /home/vagrant/.npm/483e218a-grunt-contrib-nodeunit-0-2-2.lock
+292 silly addNameRange number 2 { name: 'grunt-contrib-compass',
+292 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+292 silly addNameRange   hasData: true }
+293 silly addNameRange versions [ 'grunt-contrib-compass',
+293 silly addNameRange   [ '0.1.0',
+293 silly addNameRange     '0.1.1',
+293 silly addNameRange     '0.1.2',
+293 silly addNameRange     '0.1.3',
+293 silly addNameRange     '0.2.0',
+293 silly addNameRange     '0.3.0',
+293 silly addNameRange     '0.4.0',
+293 silly addNameRange     '0.4.1',
+293 silly addNameRange     '0.5.0',
+293 silly addNameRange     '0.6.0',
+293 silly addNameRange     '0.7.0',
+293 silly addNameRange     '0.1.1-rc7',
+293 silly addNameRange     '0.1.1-rc8',
+293 silly addNameRange     '0.7.1',
+293 silly addNameRange     '0.7.2' ] ]
+294 verbose addNamed [ 'grunt-contrib-compass', '0.7.2' ]
+295 verbose addNamed [ '0.7.2', '0.7.2' ]
+296 silly lockFile af65c8b2-grunt-contrib-compass-0-7-2 grunt-contrib-compass@0.7.2
+297 verbose lock grunt-contrib-compass@0.7.2 /home/vagrant/.npm/af65c8b2-grunt-contrib-compass-0-7-2.lock
+298 silly addNameRange number 2 { name: 'grunt-simple-watch',
+298 silly addNameRange   range: '>=0.1.2-0 <0.2.0-0',
+298 silly addNameRange   hasData: true }
+299 silly addNameRange versions [ 'grunt-simple-watch', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+300 verbose addNamed [ 'grunt-simple-watch', '0.1.2' ]
+301 verbose addNamed [ '0.1.2', '0.1.2' ]
+302 silly lockFile bd55ab3e-grunt-simple-watch-0-1-2 grunt-simple-watch@0.1.2
+303 verbose lock grunt-simple-watch@0.1.2 /home/vagrant/.npm/bd55ab3e-grunt-simple-watch-0-1-2.lock
+304 silly addNameRange number 2 { name: 'grunt-fetch-pages',
+304 silly addNameRange   range: '>=0.2.1-0 <0.3.0-0',
+304 silly addNameRange   hasData: true }
+305 silly addNameRange versions [ 'grunt-fetch-pages',
+305 silly addNameRange   [ '0.1.0',
+305 silly addNameRange     '0.1.1',
+305 silly addNameRange     '0.1.2',
+305 silly addNameRange     '0.1.3',
+305 silly addNameRange     '0.2.0',
+305 silly addNameRange     '0.2.1',
+305 silly addNameRange     '0.2.2',
+305 silly addNameRange     '1.0.0' ] ]
+306 verbose addNamed [ 'grunt-fetch-pages', '0.2.2' ]
+307 verbose addNamed [ '0.2.2', '0.2.2' ]
+308 silly lockFile 699d509b-grunt-fetch-pages-0-2-2 grunt-fetch-pages@0.2.2
+309 verbose lock grunt-fetch-pages@0.2.2 /home/vagrant/.npm/699d509b-grunt-fetch-pages-0-2-2.lock
+310 silly lockFile 7dd4ef4e-grunt-contrib-sass-0-6-0 grunt-contrib-sass@0.6.0
+311 silly lockFile 7dd4ef4e-grunt-contrib-sass-0-6-0 grunt-contrib-sass@0.6.0
+312 silly lockFile 483e218a-grunt-contrib-nodeunit-0-2-2 grunt-contrib-nodeunit@0.2.2
+313 silly lockFile 483e218a-grunt-contrib-nodeunit-0-2-2 grunt-contrib-nodeunit@0.2.2
+314 silly lockFile 39cb2eb9-grunt-contrib-sass-0-6-0 grunt-contrib-sass@~0.6.0
+315 silly lockFile 39cb2eb9-grunt-contrib-sass-0-6-0 grunt-contrib-sass@~0.6.0
+316 silly lockFile ac0ef488-grunt-contrib-nodeunit-0-2-0 grunt-contrib-nodeunit@~0.2.0
+317 silly lockFile ac0ef488-grunt-contrib-nodeunit-0-2-0 grunt-contrib-nodeunit@~0.2.0
+318 silly lockFile af65c8b2-grunt-contrib-compass-0-7-2 grunt-contrib-compass@0.7.2
+319 silly lockFile af65c8b2-grunt-contrib-compass-0-7-2 grunt-contrib-compass@0.7.2
+320 silly lockFile 089c3a2f-grunt-contrib-compass-0-7-0 grunt-contrib-compass@~0.7.0
+321 silly lockFile 089c3a2f-grunt-contrib-compass-0-7-0 grunt-contrib-compass@~0.7.0
+322 silly lockFile bd55ab3e-grunt-simple-watch-0-1-2 grunt-simple-watch@0.1.2
+323 silly lockFile bd55ab3e-grunt-simple-watch-0-1-2 grunt-simple-watch@0.1.2
+324 silly lockFile 699d509b-grunt-fetch-pages-0-2-2 grunt-fetch-pages@0.2.2
+325 silly lockFile 699d509b-grunt-fetch-pages-0-2-2 grunt-fetch-pages@0.2.2
+326 silly lockFile cd5daa7a-grunt-simple-watch-0-1-2 grunt-simple-watch@~0.1.2
+327 silly lockFile cd5daa7a-grunt-simple-watch-0-1-2 grunt-simple-watch@~0.1.2
+328 silly lockFile 7c1dc322-grunt-fetch-pages-0-2-1 grunt-fetch-pages@~0.2.1
+329 silly lockFile 7c1dc322-grunt-fetch-pages-0-2-1 grunt-fetch-pages@~0.2.1
+330 silly resolved [ { name: 'grunt-contrib-uglify',
+330 silly resolved     description: 'Minify files with UglifyJS.',
+330 silly resolved     version: '0.2.7',
+330 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-uglify',
+330 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-uglify.git' },
+330 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-uglify/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     engines: { node: '>= 0.8.0' },
+330 silly resolved     scripts: { test: 'grunt test' },
+330 silly resolved     dependencies: { 'uglify-js': '~2.4.0', 'grunt-lib-contrib': '~0.6.1' },
+330 silly resolved     devDependencies:
+330 silly resolved      { 'grunt-contrib-jshint': '~0.6.3',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+330 silly resolved        'grunt-contrib-clean': '~0.5.0',
+330 silly resolved        'grunt-contrib-internal': '~0.4.2',
+330 silly resolved        grunt: '~0.4.0' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+330 silly resolved     keywords: [ 'gruntplugin' ],
+330 silly resolved     contributors: [ [Object], [Object], [Object] ],
+330 silly resolved     readme: '# grunt-contrib-uglify v0.2.6 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-uglify.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-uglify)\n\n> Minify files with UglifyJS.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-uglify --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-uglify\');\n```\n\n\n\n\n## Uglify task\n_Run this task with the `grunt uglify` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n### Options\n\nThis task primarily delegates to [UglifyJS2][], so please consider the [UglifyJS documentation][] as required reading for advanced configuration.\n\n[UglifyJS2]: https://github.com/mishoo/UglifyJS2\n[UglifyJS documentation]: http://lisperator.net/uglifyjs/\n\n#### mangle\nType: `Boolean` `Object`\nDefault: `{}`\n\nTurn on or off mangling with default options. If an `Object` is specified, it is passed directly to `ast.mangle_names()` *and* `ast.compute_char_frequency()` (mimicking command line behavior).\n\n#### compress\nType: `Boolean` `Object`\nDefault: `{}`\n\nTurn on or off source compression with default options. If an `Object` is specified, it is passed as options to `UglifyJS.Compressor()`.\n\n#### beautify\nType: `Boolean` `Object`\nDefault: `false`\n\nTurns on beautification of the generated source code. An `Object` will be merged and passed with the options sent to `UglifyJS.OutputStream()`\n\n#### report\nChoices: `false` `\'min\'` `\'gzip\'`\nDefault: `false`\n\nEither do not report anything, report only minification result, or report minification and gzip results. This is useful to see exactly how well Uglify is performing, but using `\'gzip\'` can add 5-10x runtime task execution.\n\nExample ouput using `\'gzip\'`:\n\n```\nOriginal: 198444 bytes.\nMinified: 101615 bytes.\nGzipped:  20084 bytes.\n```\n\n#### sourceMap\nType: `String`  `Function`\nDefault: `undefined`\n\nThe location to output the sourcemap. If a function is provided, the uglify destination is passed as the argument\nand the return value will be used as the sourceMap name.\n\n#### sourceMapRoot\nType: `String`\nDefault: `undefined`\n\nThe location where your source files can be found. This sets the sourceRoot field in the source map.\n\n#### sourceMapIn\nType: `String`  `Function`\nDefault: `undefined`\n\nThe location of an input source map from an earlier compilation, e.g. from CoffeeScript. If a function is provided, the\nuglify source is passed as the argument and the return value will be used as the sourceMap name. This only makes sense\nwhen there\'s one source file.\n\n#### sourceMappingURL\nType: `String`  `Function`\nDefault: `undefined`\n\nThe location of your sourcemap. Defaults to the location you use for sourceMap, override if you need finer control. Provide\na function to dynamically generate the sourceMappingURL based off the destination.\n\n#### sourceMapPrefix\nType: `Number`\nDefault: `undefined`\n\nThe number of directories to drop from the path prefix when declaring files in the source map.\n\n###### enclose\nType: `Object`\nDefault: `undefined`\n\nWrap all of the code in a closure with a configurable arguments/parameters list.\nEach key-value pair in the `enclose` object is effectively an argument-parameter pair.\n\n#### wrap\nType: `String`\nDefault: `undefined`\n\nWrap all of the code in a closure, an easy way to make sure nothing is leaking.\nFor variables that need to be public `exports` and `global` variables are made available.\nThe value of wrap is the global variable exports will be available as.\n\n#### exportAll\nType: `Boolean`\nDefault: `false`\n\nWhen using `wrap` this will make all global functions and variables available via the export variable.\n\n#### preserveComments\nType: `Boolean` `String` `Function`\nDefault: `undefined`\nOptions: `false` `\'all\'` `\'some\'`\n\nTurn on preservation of comments.\n\n- `false` will strip all comments\n- `\'all\'` will preserve all comments in code blocks that have not been squashed or dropped\n- `\'some\'` will preserve all comments that start with a bang (`!`) or include a closure compiler style directive (`@preserve` `@license` `@cc_on`)\n- `Function` specify your own comment preservation function. You will be passed the current node and the current comment and are expected to return either `true` or `false`\n\n#### banner\nType: `String`\nDefault: empty string\n\nThis string will be prepended to the beginning of the minified output. It is processed using [grunt.template.process][], using the default options.\n\n#### footer\nType: `String`\nDefault: empty string\n\nThis string will be append to the end of the minified output. It is processed using [grunt.template.process][], using the default options.\n\n_(Default processing options are explained in the [grunt.template.process][] documentation)_\n\n[grunt.template.process]: https://github.com/gruntjs/grunt/wiki/grunt.template#wiki-grunt-template-process\n\n\n### Usage examples\n\n#### Basic compression\n\nThis configuration will compress and mangle the input files using the default options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  uglify: {\n    my_target: {\n      files: {\n        \'dest/output.min.js\': [\'src/input1.js\', \'src/input2.js\']\n      }\n    }\n  }\n});\n```\n\n#### No mangling\n\nSpecify `mangle: false` to prevent changes to your variable and function names.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  uglify: {\n    options: {\n      mangle: false\n    },\n    my_target: {\n      files: {\n        \'dest/output.min.js\': [\'src/input.js\']\n      }\n    }\n  }\n});\n```\n\n#### Reserved identifiers\n\nYou can specify identifiers to leave untouched with an `except` array in the `mangle` options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  uglify: {\n    options: {\n      mangle: {\n        except: [\'jQuery\', \'Backbone\']\n      }\n    },\n    my_target: {\n      files: {\n        \'dest/output.min.js\': [\'src/input.js\']\n      }\n    }\n  }\n});\n```\n\n#### Source maps\n\nConfigure basic source map output by specifying a file path for the `sourceMap` option.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  uglify: {\n    my_target: {\n      options: {\n        sourceMap: \'path/to/source-map.js\'\n      },\n      files: {\n        \'dest/output.min.js\': [\'src/input.js\']\n      }\n    }\n  }\n});\n```\n\n#### Advanced source maps\n\nYou can specify the parameters to pass to `UglifyJS.SourceMap()` which will\nallow you to configure advanced settings.\n\nRefer to the [UglifyJS SourceMap Documentation](http://lisperator.net/uglifyjs/codegen#source-map) for more information.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  uglify: {\n    my_target: {\n      options: {\n        sourceMap: \'path/to/source-map.js\',\n        sourceMapRoot: \'http://example.com/path/to/src/\', // the location to find your original source\n        sourceMapIn: \'example/coffeescript-sourcemap.js\', // input sourcemap from a previous compilation\n      },\n      files: {\n        \'dest/output.min.js\': [\'src/input.js\'],\n      },\n    },\n  },\n});\n```\n\n\n#### Beautify\n\nSpecify `beautify: true` to beautify your code for debugging/troubleshooting purposes.\nPass an object to manually configure any other output options passed directly to `UglifyJS.OutputStream()`.\n\nSee [UglifyJS Codegen documentation](http://lisperator.net/uglifyjs/codegen) for more information.\n\n_Note that manual configuration will require you to explicitly set `beautify: true` if you want traditional, beautified output._\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  uglify: {\n    my_target: {\n      options: {\n        beautify: true\n      },\n      files: {\n        \'dest/output.min.js\': [\'src/input.js\']\n      }\n    },\n    my_advanced_target: {\n      options: {\n        beautify: {\n          width: 80,\n          beautify: true\n        }\n      },\n      files: {\n        \'dest/output.min.js\': [\'src/input.js\']\n      }\n    }\n  }\n});\n```\n\n#### Banner comments\n\nIn this example, running `grunt uglify:my_target` will prepend a banner created by interpolating the `banner` template string with the config object. Here, those properties are the values imported from the `package.json` file (which are available via the `pkg` config property) plus today\'s date.\n\n_Note: you don\'t have to use an external JSON file. It\'s also valid to create the `pkg` object inline in the config. That being said, if you already have a JSON file, you might as well reference it._\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  pkg: grunt.file.readJSON(\'package.json\'),\n  uglify: {\n    options: {\n      banner: \'/*! <%= pkg.name %> - v<%= pkg.version %> - \' +\n        \'<%= grunt.template.today("yyyy-mm-dd") %> */\'\n    },\n    my_target: {\n      files: {\n        \'dest/output.min.js\': [\'src/input.js\']\n      }\n    }\n  }\n});\n```\n\n#### Conditional compilation\n\nYou can also enable UglifyJS conditional compilation. This is commonly used to remove debug code blocks for production builds.\n\nSee [UglifyJS global definitions documentation](http://lisperator.net/uglifyjs/compress#global-defs) for more information.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  uglify: {\n    options: {\n      compress: {\n        global_defs: {\n          "DEBUG": false\n        },\n        dead_code: true\n      }\n    },\n    my_target: {\n      files: {\n        \'dest/output.min.js\': [\'src/input.js\']\n      }\n    }\n  }\n});\n```\n#### Compiling all files in a folder dynamically\n\nThis configuration will compress and mangle the files dynamically.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  uglify: {\n    my_target: {\n      files: [{\n          expand: true,\n          cwd: \'src/js\',\n          src: \'**/*.js\',\n          dest: \'dest/js\'\n      }]\n    }\n  }\n});\n```\n\n\n## Release History\n\n * 2013-11-09   v0.2.7   prepending banner if sourceMap option not set, addresses\n * 2013-11-08   v0.2.6   merged 45, 53, 85 (105 by way of duping 53) Added support for banners in uglified files with sourcemaps Updated docs\n * 2013-10-28   v0.2.5   Added warning for banners when using sourcemaps\n * 2013-09-02   v0.2.4   updated sourcemap format via /83\n * 2013-06-10   v0.2.3   added footer option\n * 2013-05-31   v0.2.2   Reverted /56 due to /58 until [chrome/239660](https://code.google.com/p/chromium/issues/detail?id=239660&q=sourcemappingurl&colspec=ID%20Pri%20M%20Iteration%20ReleaseBlock%20Cr%20Status%20Owner%20Summary%20OS%20Modified) [firefox/870361](https://bugzilla.mozilla.org/show_bug.cgi?id=870361) drop\n * 2013-05-22   v0.2.1   Bumped uglify to ~2.3.5 /55 /40 Changed sourcemappingUrl syntax /56 Disabled sorting of names for consistent mangling /44 Updated docs for sourceMapRoot /47 /25\n * 2013-03-14   v0.2.0   No longer report gzip results by default. Support `report` option.\n * 2013-01-30   v0.1.2   Added better error reporting Support for dynamic names of multiple sourcemaps\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.1rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.1rc5   Updating to work with grunt v0.4.0rc5. Switching back to this.files api.\n * 2012-11-28   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com)\n\n*This file was generated on Sat Nov 09 2013 12:42:05.*\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-contrib-uglify@0.2.7',
+330 silly resolved     _from: 'grunt-contrib-uglify@~0.2.2' },
+330 silly resolved   { name: 'grunt',
+330 silly resolved     description: 'The JavaScript Task Runner',
+330 silly resolved     version: '0.4.4',
+330 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+330 silly resolved     homepage: 'http://gruntjs.com/',
+330 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+330 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     main: 'lib/grunt',
+330 silly resolved     scripts: { test: 'grunt test' },
+330 silly resolved     engines: { node: '>= 0.8.0' },
+330 silly resolved     keywords:
+330 silly resolved      [ 'task',
+330 silly resolved        'async',
+330 silly resolved        'cli',
+330 silly resolved        'minify',
+330 silly resolved        'uglify',
+330 silly resolved        'build',
+330 silly resolved        'lodash',
+330 silly resolved        'unit',
+330 silly resolved        'test',
+330 silly resolved        'qunit',
+330 silly resolved        'nodeunit',
+330 silly resolved        'server',
+330 silly resolved        'init',
+330 silly resolved        'scaffold',
+330 silly resolved        'make',
+330 silly resolved        'jake',
+330 silly resolved        'tool' ],
+330 silly resolved     dependencies:
+330 silly resolved      { async: '~0.1.22',
+330 silly resolved        'coffee-script': '~1.3.3',
+330 silly resolved        colors: '~0.6.2',
+330 silly resolved        dateformat: '1.0.2-1.2.3',
+330 silly resolved        eventemitter2: '~0.4.13',
+330 silly resolved        'findup-sync': '~0.1.2',
+330 silly resolved        glob: '~3.1.21',
+330 silly resolved        hooker: '~0.2.3',
+330 silly resolved        'iconv-lite': '~0.2.11',
+330 silly resolved        minimatch: '~0.2.12',
+330 silly resolved        nopt: '~1.0.10',
+330 silly resolved        rimraf: '~2.2.6',
+330 silly resolved        lodash: '~0.9.2',
+330 silly resolved        'underscore.string': '~2.2.1',
+330 silly resolved        which: '~1.0.5',
+330 silly resolved        'js-yaml': '~2.0.5',
+330 silly resolved        exit: '~0.1.1',
+330 silly resolved        getobject: '~0.1.0',
+330 silly resolved        'grunt-legacy-util': '~0.1.2' },
+330 silly resolved     devDependencies:
+330 silly resolved      { temporary: '~0.0.4',
+330 silly resolved        'grunt-contrib-jshint': '~0.6.4',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+330 silly resolved        'grunt-contrib-watch': '~0.5.3',
+330 silly resolved        difflet: '~0.2.3',
+330 silly resolved        semver: '2.1.0',
+330 silly resolved        shelljs: '~0.2.5' },
+330 silly resolved     readme: '# Grunt: The JavaScript Task Runner\n\n[![Build Status](https://secure.travis-ci.org/gruntjs/grunt.png?branch=master)](http://travis-ci.org/gruntjs/grunt)\n[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)\n\n<img align="right" height="260" src="http://gruntjs.com/img/grunt-logo-no-wordmark.svg">\n\n\n### Documentation\n\nVisit the [gruntjs.com](http://gruntjs.com/) website for all the things.\n\n### Support / Contributing\nBefore you make an issue, please read our [Contributing](http://gruntjs.com/contributing) guide.\n\nYou can find the grunt team in [#grunt on irc.freenode.net](http://webchat.freenode.net/?channels=grunt).\n\n### Release History\nSee the [CHANGELOG](CHANGELOG).\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt@0.4.4',
+330 silly resolved     _from: 'grunt@~0.4.2' },
+330 silly resolved   { name: 'grunt-contrib-jshint',
+330 silly resolved     description: 'Validate files with JSHint.',
+330 silly resolved     version: '0.6.5',
+330 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+330 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+330 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     engines: { node: '>= 0.8.0' },
+330 silly resolved     scripts: { test: 'grunt test' },
+330 silly resolved     dependencies: { jshint: '~2.1.10' },
+330 silly resolved     devDependencies:
+330 silly resolved      { 'grunt-contrib-nodeunit': '~0.1.2',
+330 silly resolved        'grunt-contrib-internal': '~0.4.6',
+330 silly resolved        grunt: '~0.4.0' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+330 silly resolved     keywords: [ 'gruntplugin' ],
+330 silly resolved     contributors: [ [Object], [Object] ],
+330 silly resolved     readme: '# grunt-contrib-jshint v0.6.5 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-jshint.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-jshint)\n\n> Validate files with JSHint.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-jshint --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-jshint\');\n```\n\n\n\n\n## Jshint task\n_Run this task with the `grunt jshint` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n\nFor more explanations of the lint errors JSHint will throw at you please visit [jslinterrors.com](http://jslinterrors.com/).\n\n### Options\n\nAny specified option will be passed through directly to [JSHint][], thus you can specify any option that JSHint supports. See the [JSHint documentation][] for a list of supported options.\n\n[JSHint]: http://www.jshint.com/\n[JSHint documentation]: http://www.jshint.com/docs/\n\nA few additional options are supported:\n\n#### globals\nType: `Object`\nDefault value: `null`\n\nA map of global variables, with keys as names and a boolean value to determine if they are assignable. This is not a standard JSHint option, but is passed into the `JSHINT` function as its third argument. See the [JSHint documentation][] for more information.\n\n#### jshintrc\nType: `String`\nDefault value: `null`\n\nIf this filename is specified, options and globals defined therein will be used. The `jshintrc` file must be valid JSON and looks something like this:\n\n```json\n{\n  "curly": true,\n  "eqnull": true,\n  "eqeqeq": true,\n  "undef": true,\n  "globals": {\n    "jQuery": true\n  }\n}\n```\n\n*Be aware that `jshintrc` settings are not merged with your Grunt options.*\n\n#### extensions\nType: `String`\nDefault value: `\'\'`\n\nA list of non-dot-js extensions to check.\n\n#### ignores\nType: `Array`\nDefault value: `null`\n\nA list of files and dirs to ignore. This will override your `.jshintignore` file if set and does not merge.\n\n#### force\nType: `Boolean`\nDefault value: `false`\n\nSet `force` to `true` to report JSHint errors but not fail the task.\n\n#### reporter\nType: `String`\nDefault value: `null`\n\nAllows you to modify this plugins output. By default it will use a built-in Grunt reporter. Set the path to your own custom reporter or to one of the built-in JSHint reporters: `jslint` or `checkstyle`.\n\nSee also: [Writing your own JSHint reporter.](http://jshint.com/docs/reporters/)\n\n#### reporterOutput\nType: `String`\nDefault value: `null`\n\nSpecify a filepath to output the results of a reporter. If `reporterOutput` is specified then all output will be written to the given filepath instead of printed to stdout.\n\n### Usage examples\n\n#### Wildcards\nIn this example, running `grunt jshint:all` (or `grunt jshint` because `jshint` is a [multi task](http://gruntjs.com/configuring-tasks#task-configuration-and-targets)) will lint the project\'s Gruntfile as well as all JavaScript files in the `lib` and `test` directories and their subdirectores, using the default JSHint options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  jshint: {\n    all: [\'Gruntfile.js\', \'lib/**/*.js\', \'test/**/*.js\']\n  }\n});\n```\n\n#### Linting before and after concatenating\nIn this example, running `grunt jshint` will lint both the "beforeconcat" set and "afterconcat" sets of files. This is not ideal, because `dist/output.js` may get linted before it gets created via the [grunt-contrib-concat plugin](https://github.com/gruntjs/grunt-contrib-concat) `concat` task.\n\nIn this case, you should lint the "beforeconcat" files first, then concat, then lint the "afterconcat" files, by running `grunt jshint:beforeconcat concat jshint:afterconcat`.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  concat: {\n    dist: {\n      src: [\'src/foo.js\', \'src/bar.js\'],\n      dest: \'dist/output.js\'\n    }\n  },\n  jshint: {\n    beforeconcat: [\'src/foo.js\', \'src/bar.js\'],\n    afterconcat: [\'dist/output.js\']\n  }\n});\n```\n\n#### Specifying JSHint options and globals\n\nIn this example, custom JSHint options are specified. Note that when `grunt jshint:uses_defaults` is run, those files are linted using the default options, but when `grunt jshint:with_overrides` is run, those files are linted using _merged_ task/target options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  jshint: {\n    options: {\n      curly: true,\n      eqeqeq: true,\n      eqnull: true,\n      browser: true,\n      globals: {\n        jQuery: true\n      },\n    },\n    uses_defaults: [\'dir1/**/*.js\', \'dir2/**/*.js\'],\n    with_overrides: {\n      options: {\n        curly: false,\n        undef: true,\n      },\n      files: {\n        src: [\'dir3/**/*.js\', \'dir4/**/*.js\']\n      },\n    }\n  },\n});\n```\n\n#### Ignoring specific warnings\n\nIf you would like to ignore a specific warning:\n\n```shell\n[L24:C9] W015: Expected \'}\' to have an indentation at 11 instead at 9.\n```\n\nYou can toggle it by prepending `-` to the warning id as an option:\n\n```js\ngrunt.initConfig({\n  jshint: {\n    ignore_warning: {\n      options: {\n        \'-W015\': true,\n      },\n      src: [\'**/*.js\'],\n    },\n  },\n});\n```\n\n#### Ignoring specific files\n\nOccasionally application files and third party libraries share the same directory.  To exclude third party code, but include all current and future application files, use a glob for `files` and specifically exclude libraries using `ignores`.  In this example, the jQuery file is matched by the glob but subsequently ignored when JSHint does its analysis.\n\n```js\ngrunt.initConfig({\n    jshint: {\n        files: [\'js/*.js\'],\n        options: {\n            ignores: [\'js/jquery.js\']\n        }\n    }\n});\n```\n\n\n## Release History\n\n * 2013-10-23   v0.6.5   Fix output when maxerr is low.\n * 2013-08-29   v0.6.4   jshintrc now loaded by jshint allowing comments.\n * 2013-08-15   v0.6.3   Fix module location for jshint 2.1.10.\n * 2013-07-29   v0.6.2   Update to jshint 2.1.7.\n * 2013-07-27   v0.6.1   Peg jshint to 2.1.4 until breaking changes in 2.1.5 are fixed.\n * 2013-06-02   v0.6.0   Dont always succeed the task when using a custom reporter. Bump jshint to 2.1.3.\n * 2013-05-22   v0.5.4   Fix default reporter to show offending file.\n * 2013-05-19   v0.5.3   Performance: Execute the reporter once rather than per file.\n * 2013-05-18   v0.5.2   Fix printing too many erroneous ignored file errors.\n * 2013-05-17   v0.5.1   Fix for when only 1 file is lint free.\n * 2013-05-17   v0.5.0   Bump to jshint 2.0. Add support for .jshintignore files and ignores option Add support for extensions option. Add support for custom reporters and output report to a file.\n * 2013-04-08   v0.4.3   Fix evaluation of predef option when it\'s an object.\n * 2013-04-08   v0.4.2   Avoid wiping force option when jshintrc is used.\n * 2013-04-06   v0.4.1   Fix to allow object type for deprecated predef.\n * 2013-04-04   v0.4.0   Revert task level options to override jshintrc files.\n * 2013-03-13   v0.3.0   Bump to JSHint 1.1.0. Add force option to report JSHint errors but not fail the task. Add error/warning code to message. Allow task level options to override jshintrc file.\n * 2013-02-26   v0.2.0   Bump to JSHint 1.0\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.1rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.1rc5   Updating to work with grunt v0.4.0rc5. Switching to this.filesSrc api.\n * 2012-10-18   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com/)\n\n*This file was generated on Wed Oct 23 2013 20:33:11.*\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-contrib-jshint@0.6.5',
+330 silly resolved     _from: 'grunt-contrib-jshint@~0.6.3' },
+330 silly resolved   { name: 'grunt-contrib-watch',
+330 silly resolved     description: 'Run predefined tasks whenever watched file patterns are added, changed or deleted.',
+330 silly resolved     version: '0.5.3',
+330 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-watch',
+330 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-watch.git' },
+330 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-watch/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     main: 'Gruntfile.js',
+330 silly resolved     engines: { node: '>= 0.8.0' },
+330 silly resolved     scripts: { test: 'grunt nodeunit -v' },
+330 silly resolved     dependencies: { gaze: '~0.4.0', 'tiny-lr': '0.0.4' },
+330 silly resolved     devDependencies:
+330 silly resolved      { grunt: '~0.4.0',
+330 silly resolved        'grunt-contrib-jshint': '~0.4.3',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+330 silly resolved        'grunt-contrib-internal': '~0.4.6' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+330 silly resolved     keywords: [ 'gruntplugin', 'watch' ],
+330 silly resolved     contributors:
+330 silly resolved      [ [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object],
+330 silly resolved        [Object] ],
+330 silly resolved     readme: '# grunt-contrib-watch v0.5.3 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-watch.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-watch)\n\n> Run predefined tasks whenever watched file patterns are added, changed or deleted.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-watch --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-watch\');\n```\n\n\n\n\n## Watch task\n_Run this task with the `grunt watch` command._\n\n\n### Settings\n\nThere are a number of options available. Please review the [minimatch options here](https://github.com/isaacs/minimatch#options). As well as some additional options as follows:\n\n#### files\nType: `String|Array`\n\nThis defines what file patterns this task will watch. Can be a string or an array of files and/or minimatch patterns.\n\n#### tasks\nType: `String|Array`\n\nThis defines which tasks to run when a watched file event occurs.\n\n#### options.spawn\nType: `Boolean`\nDefault: true\n\nWhether to spawn task runs in a child process. Setting this option to `false` speeds up the reaction time of the watch (usually 500ms faster for most) and allows subsequent task runs to share the same context. Not spawning task runs can make the watch more prone to failing so please use as needed.\n\nExample:\n```js\nwatch: {\n  scripts: {\n    files: [\'**/*.js\'],\n    tasks: [\'jshint\'],\n    options: {\n      spawn: false,\n    },\n  },\n},\n```\n\n*For backwards compatibility the option `nospawn` is still available and will do the opposite of `spawn`.*\n\n#### options.interrupt\nType: `Boolean`\nDefault: false\n\nAs files are modified this watch task will spawn tasks in child processes. The default behavior will only spawn a new child process per target when the previous process has finished. Set the `interrupt` option to true to terminate the previous process and spawn a new one upon later changes.\n\nExample:\n```js\nwatch: {\n  scripts: {\n    files: \'**/*.js\',\n    tasks: [\'jshint\'],\n    options: {\n      interrupt: true,\n    },\n  },\n},\n```\n\n#### options.debounceDelay\nType: `Integer`\nDefault: 500\n\nHow long to wait before emitting events in succession for the same filepath and status. For example if your `Gruntfile.js` file was `changed`, a `changed` event will only fire again after the given milliseconds.\n\nExample:\n```js\nwatch: {\n  scripts: {\n    files: \'**/*.js\',\n    tasks: [\'jshint\'],\n    options: {\n      debounceDelay: 250,\n    },\n  },\n},\n```\n\n#### options.interval\nType: `Integer`\nDefault: 100\n\nThe `interval` is passed to `fs.watchFile`. Since `interval` is only used by `fs.watchFile` and this watcher also uses `fs.watch`; it is recommended to ignore this option. *Default is 100ms*.\n\n#### options.event\nType: `String|Array`\nDefault: `\'all\'`\n\nSpecify the type watch event that trigger the specified task. This option can be one or many of: `\'all\'`, `\'changed\'`, `\'added\'` and `\'deleted\'`.\n\nExample:\n```js\nwatch: {\n  scripts: {\n    files: \'**/*.js\',\n    tasks: [\'generateFileManifest\'],\n    options: {\n      event: [\'added\', \'deleted\'],\n    },\n  },\n},\n```\n\n#### options.forever\nType: `Boolean`\nDefault: true\n\nThis is *only a task level option* and cannot be configured per target. By default the watch task will duck punch `grunt.fatal` and `grunt.warn` to try and prevent them from exiting the watch process. If you don\'t want `grunt.fatal` and `grunt.warn` to be overridden set the `forever` option to `false`.\n\n#### options.dateFormat\nType: `Function`\n\nThis is *only a task level option* and cannot be configured per target. By default when the watch has finished running tasks it will display the message `Completed in 1.301s at Thu Jul 18 2013 14:58:21 GMT-0700 (PDT) - Waiting...`. You can override this message by supplying your own function:\n\n```js\nwatch: {\n  options: {\n    dateFormat: function(time) {\n      grunt.log.writeln(\'The watch finished in \' + time + \'ms at\' + (new Date()).toString());\n      grunt.log.writeln(\'Waiting for more changes...\');\n    },\n  },\n  scripts: {\n    files: \'**/*.js\',\n    tasks: \'jshint\',\n  },\n},\n```\n\n#### options.atBegin\nType: `Boolean`\nDefault: false\n\nThis option will trigger the run of each specified task at startup of the watcher.\n\n#### options.livereload\nType: `Boolean|Number|Object`\nDefault: false\n\nSet to `true` or set `livereload: 1337` to a port number to enable live reloading. Default and recommended port is `35729`.\n\nIf enabled a live reload server will be started with the watch task per target. Then after the indicated tasks have ran, the live reload server will be triggered with the modified files.\n\nExample:\n```js\nwatch: {\n  css: {\n    files: \'**/*.sass\',\n    tasks: [\'sass\'],\n    options: {\n      livereload: true,\n    },\n  },\n},\n```\n\n### Examples\n\n```js\n// Simple config to run jshint any time a file is added, changed or deleted\ngrunt.initConfig({\n  watch: {\n    files: [\'**/*\'],\n    tasks: [\'jshint\'],\n  },\n});\n```\n\n```js\n// Advanced config. Run specific tasks when specific files are added, changed or deleted.\ngrunt.initConfig({\n  watch: {\n    gruntfile: {\n      files: \'Gruntfile.js\',\n      tasks: [\'jshint:gruntfile\'],\n    },\n    src: {\n      files: [\'lib/*.js\', \'css/**/*.scss\', \'!lib/dontwatch.js\'],\n      tasks: [\'default\'],\n    },\n    test: {\n      files: \'<%= jshint.test.src %>\',\n      tasks: [\'jshint:test\', \'qunit\'],\n    },\n  },\n});\n```\n\n#### Using the `watch` event\nThis task will emit a `watch` event when watched files are modified. This is useful if you would like a simple notification when files are edited or if you\'re using this task in tandem with another task. Here is a simple example using the `watch` event:\n\n```js\ngrunt.initConfig({\n  watch: {\n    scripts: {\n      files: [\'lib/*.js\'],\n    },\n  },\n});\ngrunt.event.on(\'watch\', function(action, filepath, target) {\n  grunt.log.writeln(target + \': \' + filepath + \' has \' + action);\n});\n```\n\n**The `watch` event is not intended for replacing the standard Grunt API for configuring and running tasks. If you\'re trying to run tasks from within the `watch` event you\'re more than likely doing it wrong. Please read [configuring tasks](http://gruntjs.com/configuring-tasks).**\n\n##### Compiling Files As Needed\nA very common request is to only compile files as needed. Here is an example that will only lint changed files with the `jshint` task:\n\n```js\ngrunt.initConfig({\n  watch: {\n    scripts: {\n      files: [\'lib/*.js\'],\n      tasks: [\'jshint\'],\n      options: {\n        spawn: false,\n      },\n    },\n  },\n  jshint: {\n    all: [\'lib/*.js\'],\n  },\n});\n\n// on watch events configure jshint:all to only run on changed file\ngrunt.event.on(\'watch\', function(action, filepath) {\n  grunt.config([\'jshint\', \'all\'], filepath);\n});\n```\n\nIf you need to dynamically modify your config, the `spawn` option must be disabled to keep the watch running under the same context.\n\nIf you save multiple files simultaneously you may opt for a more robust method:\n\n```js\nvar changedFiles = Object.create(null);\nvar onChange = grunt.util._.debounce(function() {\n  grunt.config([\'jshint\', \'all\'], Object.keys(changedFiles));\n  changedFiles = Object.create(null);\n}, 200);\ngrunt.event.on(\'watch\', function(action, filepath) {\n  changedFiles[filepath] = action;\n  onChange();\n});\n```\n\n#### Live Reloading\nLive reloading is built into the watch task. Set the option `livereload` to `true` to enable on the default port `35729` or set to a custom port: `livereload: 1337`.\n\nThe simplest way to add live reloading to all your watch targets is by setting `livereload` to `true` at the task level. This will run a single live reload server and trigger the live reload for all your watch targets:\n\n```js\ngrunt.initConfig({\n  watch: {\n    options: {\n      livereload: true,\n    },\n    css: {\n      files: [\'public/scss/*.scss\'],\n      tasks: [\'compass\'],\n    },\n  },\n});\n```\n\nYou can also configure live reload for individual watch targets or run multiple live reload servers. Just be sure if you\'re starting multiple servers they operate on different ports:\n\n```js\ngrunt.initConfig({\n  watch: {\n    css: {\n      files: [\'public/scss/*.scss\'],\n      tasks: [\'compass\'],\n      options: {\n        // Start a live reload server on the default port 35729\n        livereload: true,\n      },\n    },\n    another: {\n      files: [\'lib/*.js\'],\n      tasks: [\'anothertask\'],\n      options: {\n        // Start another live reload server on port 1337\n        livereload: 1337,\n      },\n    },\n    dont: {\n      files: [\'other/stuff/*\'],\n      tasks: [\'dostuff\'],\n    },\n  },\n});\n```\n\n##### Enabling Live Reload in Your HTML\nOnce you\'ve started a live reload server you\'ll be able to access the live reload script. To enable live reload on your page, add a script tag before your closing `</body>` tag pointing to the `livereload.js` script:\n\n```html\n<script src="http://localhost:35729/livereload.js"></script>\n```\n\nFeel free to add this script to your template situation and toggle with some sort of `dev` flag.\n\n##### Using Live Reload with the Browser Extension\nInstead of adding a script tag to your page, you can live reload your page by installing a browser extension. Please visit [how do I install and use the browser extensions](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) for help installing an extension for your browser.\n\nOnce installed please use the default live reload port `35729` and the browser extension will automatically reload your page without needing the `<script>` tag.\n\n##### Using Connect Middleware\nSince live reloading is used when developing, you may want to disable building for production (and are not using the browser extension). One method is to use Connect middleware to inject the script tag into your page. Try the [connect-livereload](https://github.com/intesso/connect-livereload) middleware for injecting the live reload script into your page.\n\n##### Rolling Your Own Live Reload\nLive reloading is made easy by the library [tiny-lr](https://github.com/mklabs/tiny-lr). It is encouraged to read the documentation for `tiny-lr`. If you would like to trigger the live reload server yourself, simply POST files to the URL: `http://localhost:35729/changed`. Or if you rather roll your own live reload implementation use the following example:\n\n```js\n// Create a live reload server instance\nvar lrserver = require(\'tiny-lr\')();\n\n// Listen on port 35729\nlrserver.listen(35729, function(err) { console.log(\'LR Server Started\'); });\n\n// Then later trigger files or POST to localhost:35729/changed\nlrserver.changed({body:{files:[\'public/css/changed.css\']}});\n```\n\n##### Live Reload with Preprocessors\nAny time a watched file is edited with the `livereload` option enabled, the file will be sent to the live reload server. Some edited files you may desire to have sent to the live reload server, such as when preprocessing (`sass`, `less`, `coffeescript`, etc). As any file not recognized will reload the entire page as opposed to just the `css` or `javascript`.\n\nThe solution is to point a `livereload` watch target to your destination files:\n\n```js\ngrunt.initConfig({\n  sass: {\n    dev: {\n      src: [\'src/sass/*.sass\'],\n      dest: \'dest/css/index.css\',\n    },\n  },\n  watch: {\n    sass: {\n      // We watch and compile sass files as normal but don\'t live reload here\n      files: [\'src/sass/*.sass\'],\n      tasks: [\'sass\'],\n    },\n    livereload: {\n      // Here we watch the files the sass task will compile to\n      // These files are sent to the live reload server after sass compiles to them\n      options: { livereload: true },\n      files: [\'dest/**/*\'],\n    },\n  },\n});\n```\n\n### FAQs\n\n#### How do I fix the error `EMFILE: Too many opened files.`?\nThis is because of your system\'s max opened file limit. For OSX the default is very low (256). Temporarily increase your limit with `ulimit -n 10480`, the number being the new max limit.\n\nIn some versions of OSX the above solution doesn\'t work. In that case try `launchctl limit maxfiles 10480 10480 ` and restart your terminal. See [here](http://superuser.com/questions/261023/how-to-change-default-ulimit-values-in-mac-os-x-10-6).\n\n#### Can I use this with Grunt v0.3?\nYes. Although `grunt-contrib-watch` is a replacement watch task for Grunt v0.4, version `grunt-contrib-watch@0.1.x` is compatible with Grunt v0.3. `grunt-contrib-watch >= 0.2.x` is **only* compatible and recommended to use with Grunt v0.4.\n\n#### Why is the watch devouring all my memory/cpu?\nLikely because of an enthusiastic pattern trying to watch thousands of files. Such as `\'**/*.js\'` but forgetting to exclude the `node_modules` folder with `\'!**/node_modules/**\'`. Try grouping your files within a subfolder or be more explicit with your file matching pattern.\n\nAnother reason if you\'re watching a large number of files could be the low default `interval`. Try increasing with `options: { interval: 5007 }`. Please see issues [#35](https://github.com/gruntjs/grunt-contrib-watch/issues/145) and [#145](https://github.com/gruntjs/grunt-contrib-watch/issues/145) for more information.\n\n#### Why spawn as child processes as a default?\nThe goal of this watch task is as files are changed, run tasks as if they were triggered by the user themself. Each time a user runs `grunt` a process is spawned and tasks are ran in succession. In an effort to keep the experience consistent and continually produce expected results, this watch task spawns tasks as child processes by default.\n\nSandboxing task runs also allows this watch task to run more stable over long periods of time. As well as more efficiently with more complex tasks and file structures.\n\nSpawning does cause a performance hit (usually 500ms for most environments). It also cripples tasks that rely on the watch task to share the context with each subsequent run (i.e., reload tasks). If you would like a faster watch task or need to share the context please set the `spawn` option to `false`. Just be aware that with this option enabled, the watch task is more prone to failure.\n\n\n## Release History\n\n * 2013-08-25   v0.5.3   Fixed for live reload missing files.\n * 2013-08-16   v0.5.2   Fixed issue running tasks after gruntfile is reloaded. Ignores empty file paths.\n * 2013-07-20   v0.5.1   Fixed issue with options resetting.\n * 2013-07-18   v0.5.0   Added target name to watch event. Added atBegin option to run tasks when watcher starts. Changed nospawn option to spawn (nospawn still available for backwards compatibility). Moved libs/vars into top scope to prevent re-init. Bumped Gaze version to ~0.4. Re-grab task/target options upon each task run. Add dateFormat option to override the date/time output upon completion.\n * 2013-05-27   v0.4.4   Remove gracefully closing SIGINT. Not needed and causes problems for Windows. Ensure tasks are an array to not conflict with cliArgs.\n * 2013-05-11   v0.4.3   Only group changed files per target to send correct files to live reload.\n * 2013-05-09   v0.4.2   Fix for closing watchers.\n * 2013-05-09   v0.4.1   Removed "beep" notification. Tasks now optional with livereload option. Reverted "run again" with interrupt off to fix infinite recursion issue. Watchers now close more properly on task run.\n * 2013-05-03   v0.4.0   Option livereload to start live reload servers. Will reload a Gruntfile before running tasks if Gruntfile is modified. Option event to only trigger watch on certain events. Refactor watch task into separate task runs per target. Option forever to override grunt.fatal/warn to help keeping the watch alive with nospawn enabled. Emit a beep upon complete. Logs all watched files with verbose flag set. If interrupt is off, will run the tasks once more if watch triggered during a previous task run. tasks property is optional for use with watch event. Watchers properly closed when exiting.\n * 2013-02-28   v0.3.1   Fix for top level options.\n * 2013-02-27   v0.3.0   nospawn option added to run tasks without spawning as child processes. Watch emits \'watch\' events upon files being triggered with grunt.event. Completion time in seconds and date/time shown after tasks ran. Negate file patterns fixed. Tasks debounced individually to handle simultaneous triggering for multiple targets. Errors handled better and viewable with --stack cli option. Code complexity reduced making the watch task code easier to read.\n * 2013-02-15   v0.2.0   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.2.0rc7   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.2.0rc5   Updating to work with grunt v0.4.0rc5.\n * 2012-12-15   v0.2.0a   Conversion to grunt v0.4 conventions. Remove node v0.6 and grunt v0.3 support. Allow watch task to be renamed. Use grunt.util.spawn "grunt" option. Updated to gaze@0.3.0, forceWatchMethod option removed.\n * 2012-11-01   v0.1.4   Prevent watch from spawning duplicate watch tasks\n * 2012-10-28   v0.1.3   Better method to spawn the grunt bin Bump gaze to v0.2.0. Better handles some events and new option forceWatchMethod Only support Node.js >= v0.8\n * 2012-10-17   v0.1.2   Only spawn a process per task one at a time Add interrupt option to cancel previous spawned process Grunt v0.3 compatibility changes\n * 2012-10-16   v0.1.1   Fallback to global grunt bin if local doesnt exist. Fatal if bin cannot be found Update to gaze 0.1.6\n * 2012-10-08   v0.1.0   Release watch task Remove spawn from helper Run on Grunt v0.4\n\n---\n\nTask submitted by [Kyle Robinson Young](http://dontkry.com)\n\n*This file was generated on Sun Aug 25 2013 17:29:57.*\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-contrib-watch@0.5.3',
+330 silly resolved     _from: 'grunt-contrib-watch@~0.5.3' },
+330 silly resolved   { name: 'grunt-contrib-concat',
+330 silly resolved     description: 'Concatenate files.',
+330 silly resolved     version: '0.3.0',
+330 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-concat',
+330 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-concat.git' },
+330 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-concat/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     main: 'Gruntfile.js',
+330 silly resolved     engines: { node: '>= 0.8.0' },
+330 silly resolved     scripts: { test: 'grunt test' },
+330 silly resolved     devDependencies:
+330 silly resolved      { 'grunt-contrib-jshint': '~0.2.0',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+330 silly resolved        'grunt-contrib-clean': '~0.4.0',
+330 silly resolved        'grunt-contrib-internal': '~0.4.2',
+330 silly resolved        grunt: '~0.4.0' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+330 silly resolved     keywords: [ 'gruntplugin' ],
+330 silly resolved     contributors: [ [Object], [Object], [Object] ],
+330 silly resolved     readme: '# grunt-contrib-concat [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-contrib-concat.png?branch=master)](http://travis-ci.org/gruntjs/grunt-contrib-concat)\n\n> Concatenate files.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-concat --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-concat\');\n```\n\n\n\n\n## Concat task\n_Run this task with the `grunt concat` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n### Options\n\n#### separator\nType: `String`\nDefault: `grunt.util.linefeed`\n\nConcatenated files will be joined on this string. If you\'re post-processing concatenated JavaScript files with a minifier, you may need to use a semicolon `\';\'` as the separator.\n\n#### banner\nType: `String`\nDefault: empty string\n\nThis string will be prepended to the beginning of the concatenated output. It is processed using [grunt.template.process][], using the default options.\n\n_(Default processing options are explained in the [grunt.template.process][] documentation)_\n\n#### footer\nType: `String`\nDefault: empty string\n\nThis string will be appended to the end of the concatenated output. It is processed using [grunt.template.process][], using the default options.\n\n_(Default processing options are explained in the [grunt.template.process][] documentation)_\n\n#### stripBanners\nType: `Boolean` `Object`\nDefault: `false`\n\nStrip JavaScript banner comments from source files.\n\n* `false` - No comments are stripped.\n* `true` - `/* ... */` block comments are stripped, but _NOT_ `/*! ... */` comments.\n* `options` object:\n  * By default, behaves as if `true` were specified.\n  * `block` - If true, _all_ block comments are stripped.\n  * `line` - If true, any contiguous _leading_ `//` line comments are stripped.\n\n#### process\nType: `Boolean` `Object`\nDefault: `false`\n\nProcess source files as [templates][] before concatenating.\n\n* `false` - No processing will occur.\n* `true` - Process source files using [grunt.template.process][] defaults.\n* `options` object - Process source files using [grunt.template.process][], using the specified options.\n* `function(src, filepath)` - Process source files using the given function, called once for each file. The returned value will be used as source code.\n\n_(Default processing options are explained in the [grunt.template.process][] documentation)_\n\n  [templates]: https://github.com/gruntjs/grunt/wiki/grunt.template\n  [grunt.template.process]: https://github.com/gruntjs/grunt/wiki/grunt.template#wiki-grunt-template-process\n\n### Usage Examples\n\n#### Concatenating with a custom separator\n\nIn this example, running `grunt concat:dist` (or `grunt concat` because `concat` is a [multi task][]) will concatenate the three specified source files (in order), joining files with `;` and writing the output to `dist/built.js`.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  concat: {\n    options: {\n      separator: \';\'\n    },\n    dist: {\n      src: [\'src/intro.js\', \'src/project.js\', \'src/outro.js\'],\n      dest: \'dist/built.js\'\n    }\n  }\n});\n```\n\n#### Banner comments\n\nIn this example, running `grunt concat:dist` will first strip any preexisting banner comment from the `src/project.js` file, then concatenate the result with a newly-generated banner comment, writing the output to `dist/built.js`.\n\nThis generated banner will be the contents of the `banner` template string interpolated with the config object. In this case, those properties are the values imported from the `package.json` file (which are available via the `pkg` config property) plus today\'s date.\n\n_Note: you don\'t have to use an external JSON file. It\'s also valid to create the `pkg` object inline in the config. That being said, if you already have a JSON file, you might as well reference it._\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  pkg: grunt.file.readJSON(\'package.json\'),\n  concat: {\n    options: {\n      stripBanners: true,\n      banner: \'/*! <%= pkg.name %> - v<%= pkg.version %> - \' +\n        \'<%= grunt.template.today("yyyy-mm-dd") %> */\'\n    },\n    dist: {\n      src: [\'src/project.js\'],\n      dest: \'dist/built.js\'\n    }\n  }\n});\n```\n\n#### Multiple targets\n\nIn this example, running `grunt concat` will build two separate files. One "basic" version, with the main file essentially just copied to `dist/basic.js`, and another "with_extras" concatenated version written to `dist/with_extras.js`.\n\nWhile each concat target can be built individually by running `grunt concat:basic` or `grunt concat:extras`, running `grunt concat` will build all concat targets. This is because `concat` is a [multi task][].\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  concat: {\n    basic: {\n      src: [\'src/main.js\'],\n      dest: \'dist/basic.js\'\n    },\n    extras: {\n      src: [\'src/main.js\', \'src/extras.js\'],\n      dest: \'dist/with_extras.js\'\n    }\n  }\n});\n```\n\n#### Multiple files per target\n\nLike the previous example, in this example running `grunt concat` will build two separate files. One "basic" version, with the main file essentially just copied to `dist/basic.js`, and another "with_extras" concatenated version written to `dist/with_extras.js`.\n\nThis example differs in that both files are built under the same target.\n\nUsing the `files` object, you can have list any number of source-destination pairs.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  concat: {\n    basic_and_extras: {\n      files: {\n        \'dist/basic.js\': [\'src/main.js\'],\n        \'dist/with_extras.js\': [\'src/main.js\', \'src/extras.js\']\n      }\n    }\n  }\n});\n```\n\n#### Dynamic filenames\n\nFilenames can be generated dynamically by using `<%= %>` delimited underscore templates as filenames.\n\nIn this example, running `grunt concat:dist` generates a destination file whose name is generated from the `name` and `version` properties of the referenced `package.json` file (via the `pkg` config property).\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  pkg: grunt.file.readJSON(\'package.json\'),\n  concat: {\n    dist: {\n      src: [\'src/main.js\'],\n      dest: \'dist/<%= pkg.name %>-<%= pkg.version %>.js\'\n    }\n  }\n});\n```\n\n#### Advanced dynamic filenames\n\nIn this more involved example, running `grunt concat` will build two separate files (because `concat` is a [multi task][]). The destination file paths will be expanded dynamically based on the specified templates, recursively if necessary.\n\nFor example, if the `package.json` file contained `{"name": "awesome", "version": "1.0.0"}`, the files `dist/awesome/1.0.0/basic.js` and `dist/awesome/1.0.0/with_extras.js` would be generated.\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  pkg: grunt.file.readJSON(\'package.json\'),\n  dirs: {\n    src: \'src/files\',\n    dest: \'dist/<%= pkg.name %>/<%= pkg.version %>\'\n  },\n  concat: {\n    basic: {\n      src: [\'<%= dirs.src %>/main.js\'],\n      dest: \'<%= dirs.dest %>/basic.js\'\n    },\n    extras: {\n      src: [\'<%= dirs.src %>/main.js\', \'<%= dirs.src %>/extras.js\'],\n      dest: \'<%= dirs.dest %>/with_extras.js\'\n    }\n  }\n});\n```\n\n#### Invalid or Missing Files Warning\nIf you would like the `concat` task to warn if a given file is missing or invalid be sure to set `nonull` to `true`:\n\n```js\ngrunt.initConfig({\n  concat: {\n    missing: {\n      src: [\'src/invalid_or_missing_file\'],\n      dest: \'compiled.js\',\n      nonull: true,\n    },\n  },\n});\n```\n\nSee [configuring files for a task](http://gruntjs.com/configuring-tasks#files) for how to configure file globbing in Grunt.\n\n\n#### Custom process function\nIf you would like to do any custom processing before concatenating, use a custom process function:\n\n```js\nrunt.initConfig({\n  concat: {\n    dist: {\n      options: {\n        // Replace all \'use strict\' statements in the code with a single one at the top\n        banner: "\'use strict\';\\n",\n        process: function(src, filepath) {\n          return \'// Source: \' + filepath + \'\\n\' +\n            src.replace(/(^|\\n)[ \\t]*(\'use strict\'|"use strict");?\\s*/g, \'$1\');\n        },\n      },\n      files: {\n        \'dist/built.js\': [\'src/project.js\'],\n      },\n    },\n  },\n});\n```\n\n## Release History\n\n * 2013-04-25   v0.3.0   Add option to process files with a custom function.\n * 2013-04-08   v0.2.0   Dont normalize separator to allow user to set LF even on a Windows environment.\n * 2013-02-22   v0.1.3   Support footer option.\n * 2013-02-15   v0.1.2   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.2rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.2rc5   Updating to work with grunt v0.4.0rc5. Switching back to this.files api.\n * 2012-11-13   v0.1.1   Switch to this.file api internally.\n * 2012-10-03   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com/)\n\n*This file was generated on Thu Apr 25 2013 20:22:44.*\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-contrib-concat@0.3.0',
+330 silly resolved     _from: 'grunt-contrib-concat@~0.3.0' },
+330 silly resolved   { name: 'grunt-contrib-imagemin',
+330 silly resolved     description: 'Minify PNG, JPEG and GIF images',
+330 silly resolved     version: '0.4.1',
+330 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+330 silly resolved     repository: { type: 'git', url: 'gruntjs/grunt-contrib-imagemin' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     engines: { node: '>=0.8.0' },
+330 silly resolved     scripts: { test: 'grunt test' },
+330 silly resolved     dependencies:
+330 silly resolved      { filesize: '~2.0.0',
+330 silly resolved        'jpegtran-bin': '~0.2.0',
+330 silly resolved        'optipng-bin': '~0.3.0',
+330 silly resolved        gifsicle: '~0.1.0',
+330 silly resolved        'pngquant-bin': '~0.1.0',
+330 silly resolved        chalk: '~0.4.0',
+330 silly resolved        async: '~0.2.9' },
+330 silly resolved     devDependencies:
+330 silly resolved      { 'grunt-contrib-internal': '~0.4.6',
+330 silly resolved        'grunt-contrib-clean': '~0.5.0',
+330 silly resolved        'grunt-contrib-jshint': '~0.8.0',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+330 silly resolved        grunt: '~0.4.0',
+330 silly resolved        'time-grunt': '~0.2.7' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+330 silly resolved     keywords:
+330 silly resolved      [ 'gruntplugin',
+330 silly resolved        'image',
+330 silly resolved        'img',
+330 silly resolved        'minify',
+330 silly resolved        'compress',
+330 silly resolved        'png',
+330 silly resolved        'jpg',
+330 silly resolved        'jpeg',
+330 silly resolved        'gif' ],
+330 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+330 silly resolved     readme: '# grunt-contrib-imagemin v0.4.0 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-imagemin.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-imagemin)\n\n> Minify PNG, JPEG and GIF images\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-imagemin --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-imagemin\');\n```\n\n\n\n\n## Imagemin task\n_Run this task with the `grunt imagemin` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n\nMinify images using [OptiPNG](http://optipng.sourceforge.net), [pngquant](http://pngquant.org), [jpegtran](http://jpegclub.org/jpegtran/) and [gifsicle](http://www.lcdf.org/gifsicle).\n\nImages will be cached and only minified again if they change.\n\n### Options\n\nOptions will only apply to the relevant files, so you don\'t need separate targets for png/jpg.\n\n\n#### optimizationLevel *(png only)*\n\nType: `Number`\nDefault: `7`\n\nSelect optimization level between `0` and `7`.\n\n> The optimization level 0 enables a set of optimization operations that require minimal effort. There will be no changes to image attributes like bit depth or color type, and no recompression of existing IDAT datastreams. The optimization level 1 enables a single IDAT compression trial. The trial chosen is what. OptiPNG thinks it’s probably the most effective. The optimization levels 2 and higher enable multiple IDAT compression trials; the higher the level, the more trials.\n\nLevel and trials:\n\n1. 1 trial\n2. 8 trials\n3. 16 trials\n4. 24 trials\n5. 48 trials\n6. 120 trials\n7. 240 trials\n\n\n#### progressive *(jpg only)*\n\nType: `Boolean`\nDefault: `true`\n\nLossless conversion to progressive.\n\n\n#### interlaced *(gif only)*\n\nType: `Boolean`\nDefault: `true`\n\nInterlace gif for progressive rendering.\n\n\n#### pngquant\n\nType: `Boolean`\nDefault: `false`\n\nWhether to enable pngquant compression.\n\n> pngquant is a command-line utility for converting 24/32-bit PNG images to paletted (8-bit) PNGs. The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency.\n\n#### Example config\n\nYou can either map your files statically or [dynamically](https://github.com/gruntjs/grunt/wiki/Configuring-tasks#building-the-files-object-dynamically).\n\n```javascript\ngrunt.initConfig({\n  imagemin: {                          // Task\n    static: {                          // Target\n      options: {                       // Target options\n        optimizationLevel: 3\n      },\n      files: {                         // Dictionary of files\n        \'dist/img.png\': \'src/img.png\', // \'destination\': \'source\'\n        \'dist/img.jpg\': \'src/img.jpg\',\n        \'dist/img.gif\': \'src/img.gif\'\n      }\n    },\n    dynamic: {                         // Another target\n      files: [{\n        expand: true,                  // Enable dynamic expansion\n        cwd: \'src/\',                   // Src matches are relative to this path\n        src: [\'**/*.{png,jpg,gif}\'],   // Actual patterns to match\n        dest: \'dist/\'                  // Destination path prefix\n      }]\n    }\n  }\n});\n\ngrunt.loadNpmTasks(\'grunt-contrib-imagemin\');\ngrunt.registerTask(\'default\', [\'imagemin\']);\n```\n\n\n## Release History\n\n * 2013-11-22   v0.4.0   The `pngquant` option is now `false` by default instead of `true`.\n * 2013-09-09   v0.3.0   Add `interlace` option for gif files.\n * 2013-08-16   v0.2.0   Add `gifsicle` and `pngquant`. Cache images so only changed images are optimized. Default `optimizationLevel` to `7` and `progressive` to `true`.\n * 2013-04-10   v0.1.4   Fix exception when running in verbose mode.\n * 2013-04-05   v0.1.3   Fix OptiPNG not being able to overwrite file. Allow overwriting src when dest/src is the same. Limit to 10 concurrent optimizations.\n * 2013-02-22   v0.1.2   Fix OptiPNG not working on some systems. Prevent OptiPNG from producing .bak files.\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-30   v0.1.1rc8   Fix task not creating destination folders\n * 2013-01-30   v0.1.1rc7   Updating to work with grunt v0.4.0rc7. Switching to this.files api.\n * 2012-11-01   v0.1.0   Initial release.\n\n---\n\nTask submitted by [Sindre Sorhus](http://github.com/sindresorhus)\n\n*This file was generated on Fri Nov 22 2013 19:53:17.*\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-contrib-imagemin@0.4.1',
+330 silly resolved     _from: 'grunt-contrib-imagemin@~0.4.0' },
+330 silly resolved   { name: 'grunt-contrib-sass',
+330 silly resolved     description: 'Compile Sass to CSS',
+330 silly resolved     version: '0.6.0',
+330 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-sass',
+330 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-sass.git' },
+330 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-sass/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     main: 'Gruntfile.js',
+330 silly resolved     engines: { node: '>=0.8.0' },
+330 silly resolved     scripts: { test: 'grunt test' },
+330 silly resolved     dependencies: { dargs: '~0.1.0', async: '~0.2.9' },
+330 silly resolved     devDependencies:
+330 silly resolved      { 'grunt-contrib-clean': '~0.5.0',
+330 silly resolved        'grunt-contrib-jshint': '~0.7.2',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+330 silly resolved        'grunt-contrib-internal': '~0.4.4',
+330 silly resolved        grunt: '~0.4.1' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+330 silly resolved     keywords:
+330 silly resolved      [ 'gruntplugin',
+330 silly resolved        'scss',
+330 silly resolved        'sass',
+330 silly resolved        'css',
+330 silly resolved        'compile',
+330 silly resolved        'preprocessor',
+330 silly resolved        'style' ],
+330 silly resolved     contributors: [ [Object] ],
+330 silly resolved     readme: '# grunt-contrib-sass v0.5.0 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-sass.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-sass)\n\n> Compile Sass to CSS\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\nNote: Files that begin with "_" are ignored even if they match the globbing pattern. This is done to match the expected [Sass partial behaviour](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#partials).\n\n```shell\nnpm install grunt-contrib-sass --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-sass\');\n```\n\n\n\n\n## Sass task\n_Run this task with the `grunt sass` command._\n\n[Sass](http://sass-lang.com) is a preprocessor that adds nested rules, variables, mixins and functions, selector inheritance, and more to css. Sass files compile into well-formatted, standard CSS to use in your site or application.\n\nThis task requires you to have [Ruby](http://www.ruby-lang.org/en/downloads/) and [Sass](http://sass-lang.com/download.html) installed. If you\'re on OS X or Linux you probably already have Ruby installed; test with `ruby -v` in your terminal. When you\'ve confirmed you have Ruby installed, run `gem install sass` to install Sass.\n\n### Options\n\n\n#### sourcemap\n\nType: `Boolean`  \nDefault: `false`\n\nEnable Source Maps.\n\n**Requires Sass 3.3.0, which can be installed with `gem install sass --pre`**\n\n\n#### trace\n\nType: `Boolean`  \nDefault: `false`\n\nShow a full traceback on error.\n\n\n#### unixNewlines\n\nType: `Boolean`  \nDefault: `false` on Windows, otherwise `true`\n\nForce Unix newlines in written files.\n\n\n#### check\n\nType: `Boolean`  \nDefault: `false`\n\nJust check syntax, don\'t evaluate.\n\n\n#### style\n\nType: `String`  \nDefault: `nested`\n\nOutput style. Can be `nested`, `compact`, `compressed`, `expanded`.\n\n\n#### precision\n\nType: `Number`  \nDefault: `3`\n\nHow many digits of precision to use when outputting decimal numbers.\n\n\n#### quiet\n\nType: `Boolean`  \nDefault: `false`\n\nSilence warnings and status messages during compilation.\n\n\n#### compass\n\nType: `Boolean`  \nDefault: `false`\n\nMake Compass imports available and load project configuration (`config.rb` located close to the `Gruntfile.js`).\n\n\n#### debugInfo\n\nType: `Boolean`  \nDefault: `false`\n\nEmit extra information in the generated CSS that can be used by the FireSass Firebug plugin.\n\n\n#### lineNumbers\n\nType: `Boolean`  \nDefault: `false`\n\nEmit comments in the generated CSS indicating the corresponding source line.\n\n\n#### loadPath\n\nType: `String|Array`\n\nAdd a (or multiple) Sass import path.\n\n\n#### require\n\nType: `String|Array`\n\nRequire a (or multiple) Ruby library before running Sass.\n\n\n#### cacheLocation\n\nType: `String`  \nDefault: `.sass-cache`\n\nThe path to put cached Sass files.\n\n\n#### noCache\n\nType: `Boolean`  \nDefault: `false`\n\nDon\'t cache to sassc files.\n\n\n#### bundleExec\n\nType: `Boolean`  \nDefault: `false`\n\nRun `sass` with [bundle exec](http://bundler.io/v1.3/man/bundle-exec.1.html): `bundle exec sass`.\n\n\n#### banner\n\nType: `String`  \n\nPrepend the specified string to the output file. Useful for licensing information.\n\n*Can\'t be used if you use the `sourcemap` option.*\n\n### Examples\n\n#### Example config\n\n```javascript\ngrunt.initConfig({\n  sass: {                              // Task\n    dist: {                            // Target\n      options: {                       // Target options\n        style: \'expanded\'\n      },\n      files: {                         // Dictionary of files\n        \'main.css\': \'main.scss\',       // \'destination\': \'source\'\n        \'widgets.css\': \'widgets.scss\'\n      }\n    }\n  }\n});\n\ngrunt.loadNpmTasks(\'grunt-contrib-sass\');\n\ngrunt.registerTask(\'default\', [\'sass\']);\n```\n\n#### Compile\n\n```javascript\ngrunt.initConfig({\n  sass: {\n    dist: {\n      files: {\n        \'main.css\': \'main.scss\'\n      }\n    }\n  }\n});\n```\n\n#### Concat and compile\n\nInstead of concatenating the files, just `@import` them into another `.sass` file eg. `main.scss`.\n\n\n#### Compile multiple files\n\nYou can specify multiple `destination: source` items in `files`.\n\n```javascript\ngrunt.initConfig({\n  sass: {\n    dist: {\n      files: {\n        \'main.css\': \'main.scss\',\n        \'widgets.css\': \'widgets.scss\'\n      }\n    }\n  }\n});\n```\n\n#### Compile files in a directory\n\nInstead of naming all files you want to compile, you can use the `expand` property allowing you to specify a directory. More information available in the [grunt docs](https://github.com/gruntjs/grunt/wiki/Configuring-tasks) - `Building the files object dynamically`.\n\n```javascript\ngrunt.initConfig({\n  sass: {\n    dist: {\n      files: [{\n        expand: true,\n        cwd: \'styles\',\n        src: [\'*.scss\'],\n        dest: \'../public\',\n        ext: \'.css\'\n      }]\n    }\n  }\n});\n```\n\n\n## Release History\n\n * 2013-08-21   v0.5.0   Add banner option.\n * 2013-07-06   v0.4.1   Use file.orig.src if file.src does not exist and return early to avoid passing non-existent files to sass binary.\n * 2013-06-30   v0.4.0   Rewrite task to be able to support Source Maps. Compile Sass files in parallel for better performance.\n * 2013-03-26   v0.3.0   Add support for `bundle exec`. Make sure `.css` files are compiled with SCSS.\n * 2013-02-15   v0.2.2   First official release for Grunt 0.4.0.\n * 2013-01-25   v0.2.2rc7   Updating grunt/gruntplugin dependencies to rc7. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.2.2rc5   Updating to work with grunt v0.4.0rc5. Switching to this.files api. Add separator option.\n * 2012-11-05   v0.2.0   Grunt 0.4 compatibility. Improve error message when Sass binary couldn\'t be found\n * 2012-10-12   v0.1.3   Rename grunt-contrib-lib dep to grunt-lib-contrib.\n * 2012-10-08   v0.1.2   Fix regression for darwin.\n * 2012-10-05   v0.1.1   Windows support.\n * 2012-09-24   v0.1.0   Initial release.\n\n---\n\nTask submitted by [Sindre Sorhus](http://github.com/sindresorhus)\n\n*This file was generated on Thu Aug 22 2013 03:28:49.*\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-contrib-sass@0.6.0',
+330 silly resolved     _from: 'grunt-contrib-sass@~0.6.0' },
+330 silly resolved   { name: 'grunt-contrib-nodeunit',
+330 silly resolved     description: 'Run Nodeunit unit tests.',
+330 silly resolved     version: '0.2.2',
+330 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-nodeunit',
+330 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-nodeunit.git' },
+330 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-nodeunit/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     engines: { node: '>= 0.8.0' },
+330 silly resolved     scripts: { test: 'grunt test' },
+330 silly resolved     dependencies: { nodeunit: '~0.8.0' },
+330 silly resolved     devDependencies:
+330 silly resolved      { 'grunt-contrib-jshint': '~0.5.4',
+330 silly resolved        'grunt-contrib-internal': '~0.4.5',
+330 silly resolved        grunt: '~0.4.0' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+330 silly resolved     keywords: [ 'gruntplugin' ],
+330 silly resolved     contributors: [ [Object], [Object] ],
+330 silly resolved     readme: '# grunt-contrib-nodeunit v0.2.2 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-nodeunit.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-nodeunit)\n\n> Run Nodeunit unit tests.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-nodeunit --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-nodeunit\');\n```\n\n\n\n\n## Nodeunit task\n_Run this task with the `grunt nodeunit` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n\nThis plugin provides server-side JavaScript unit testing via [nodeunit](https://github.com/caolan/nodeunit/). If you\'re looking to test JavaScript that uses `window` or the DOM, please use the [grunt-contrib-qunit plugin](https://github.com/gruntjs/grunt-contrib-qunit)`qunit` task.\n\n\n### Usage examples\n\n#### Wildcards\n\nIn this example, `grunt nodeunit:all` or `grunt nodeunit` will test all files ending with `_test.js` in the `test` directory.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  nodeunit: {\n    all: [\'test/*_test.js\']\n  }\n});\n```\n\nWith a slight modification, `grunt nodeunit:all` will test files matching the same pattern in the `test` directory _and all subdirectories_.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  nodeunit: {\n    all: [\'test/**/*_test.js\']\n  }\n});\n```\n\n## Release History\n\n * 2013-10-19   v0.2.2   Allow missing operators on error object.\n * 2013-09-24   v0.2.1   Fix error display.\n * 2013-05-23   v0.2.0   Bump nodeunit to v0.8.0\n * 2013-02-15   v0.1.2   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.2rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.2rc5   Updating to work with grunt v0.4.0rc5. Switching to this.filesSrc api.\n * 2012-11-13   v0.1.1   Switch to this.file api internally.\n * 2012-11-04   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com)\n\n*This file was generated on Sat Oct 19 2013 14:59:01.*\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-contrib-nodeunit@0.2.2',
+330 silly resolved     _from: 'grunt-contrib-nodeunit@~0.2.0' },
+330 silly resolved   { name: 'grunt-contrib-compass',
+330 silly resolved     description: 'Compile Sass to CSS using Compass',
+330 silly resolved     version: '0.7.2',
+330 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-compass',
+330 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-compass.git' },
+330 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-compass/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     engines: { node: '>=0.8.0' },
+330 silly resolved     scripts: { test: 'grunt test' },
+330 silly resolved     dependencies: { tmp: '0.0.23', dargs: '~0.1.0', async: '~0.2.0' },
+330 silly resolved     devDependencies:
+330 silly resolved      { 'grunt-contrib-clean': '~0.5.0',
+330 silly resolved        'grunt-contrib-jshint': '~0.7.2',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+330 silly resolved        'grunt-contrib-internal': '~0.4.2',
+330 silly resolved        grunt: '~0.4.0' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+330 silly resolved     keywords:
+330 silly resolved      [ 'gruntplugin',
+330 silly resolved        'compass',
+330 silly resolved        'scss',
+330 silly resolved        'sass',
+330 silly resolved        'css',
+330 silly resolved        'compile',
+330 silly resolved        'preprocessor',
+330 silly resolved        'style' ],
+330 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+330 silly resolved     readme: '# grunt-contrib-compass v0.7.1 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-compass.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-compass)\n\n> Compile Sass to CSS using Compass\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-compass --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-compass\');\n```\n\n\n\n\n## Compass task\n_Run this task with the `grunt compass` command._\n\n[Compass](http://compass-style.org/) is an open-source authoring framework for the [Sass](http://sass-lang.com/) css preprocessor. It helps you build stylesheets faster with a huge library of Sass mixins and functions, advanced tools for spriting, and workflow improvements including file based Sass configuration and a simple pattern for building and using Compass extensions.\n\nThis task requires you to have [Ruby](http://www.ruby-lang.org/en/downloads/), [Sass](http://sass-lang.com/tutorial.html), and [Compass](http://compass-style.org/install/) >=0.12.2 installed. If you\'re on OS X or Linux you probably already have Ruby installed; test with `ruby -v` in your terminal. When you\'ve confirmed you have Ruby installed, run `gem update --system && gem install compass` to install Compass and Sass.\n\nCompass operates on a folder level. Because of this you don\'t specify any src/dest, but instead define the `sassDir` and `cssDir` options.\n\n### Options\n\nCompass doesn\'t expose all of its [options][config] through the CLI, which this task makes use of. If you need an option not mentioned below you can either specify a path to a config.rb file in the `config` option or embed it directly into the `raw` option. Options defined in your Gruntfile will override those specified in your config.rb or `raw` property. `config` and `raw` are mutually exclusive.\n\n#### config\n\nType: `String`  \nDefault: same path as your Gruntfile\n\nSpecify the location of the Compass [configuration file][config] explicitly.\n\n#### raw\n\nType: `String`\n\nString form of the Compass [configuration file][config].\n\n#### basePath\n\nType: `String`\n\nThe path Compass will run from. Defaults to the same path as your Gruntfile.\n\n#### banner\n\nType: `String`\n\nPrepend the specified string to the output file. Useful for licensing\ninformation. **Note:** This only works in combination with the `specify` option\nand can conflict with sourcemap generation.\n\n#### app\n\nType: `String`  \nDefault: `stand_alone`\n\nTell compass what kind of application it is integrating with. Can be `stand_alone` or `rails`.\n\n#### sassDir\n\nType: `String`\n\nThe source directory where you keep your Sass stylesheets.\n\n#### cssDir\n\nType: `String`\n\nThe target directory where you keep your CSS stylesheets.\n\n#### specify\n\nType: `String|Array`\n\nLets you specify which files you want to compile. Useful if you don\'t want to compile the whole folder. Globbing supported. Ignores filenames starting with underscore. Files must be in the directory you specified in `sassDir`.\n\n#### imagesDir\n\nType: `String`\n\nThe directory where you keep your images.\n\n#### javascriptsDir\n\nType: `String`\n\nThe directory where you keep your JavaScript files.\n\n#### fontsDir\n\nType: `String`\n\nThe directory where you keep your fonts.\n\n#### environment\n\nType: `String`  \nDefault: `development`\n\nUse sensible defaults for your current environment. Can be: `development` or `production`\n\n#### outputStyle\n\nType: `String`\n\nCSS output mode. Can be: `nested`, `expanded`, `compact`, `compressed`.\n\n#### relativeAssets\n\nType: `Boolean`\n\nMake Compass asset helpers generate relative urls to assets.\n\n#### noLineComments\n\nType: `Boolean`\n\nDisable line comments.\n\n#### httpPath\n\nType: `String`  \nDefault: `/`\n\nThe path to the project when running within the web server.\n\n#### cssPath\n\nType: `String`\n\nThe directory where the css stylesheets are kept. It is relative to the `projectPath`. Defaults to "stylesheets".\n\n#### httpStylesheetsPath\n\nType: `String`  \nDefault: `httpPath + "/" + cssDir`\n\nThe full http path to stylesheets on the web server.\n\n#### sassPath\n\nType: `String`  \nDefault: `sass`\n\nThe directory where the sass stylesheets are kept. It is relative to the `projectPath`.\n\n#### imagesPath\n\nType: `String`  \nDefault: `images`\n\nThe directory where the images are kept. It is relative to the projectPath.\n\n#### httpImagesPath\n\nType: `String`  \nDefault: `httpPath + "/" + imagesDir`\n\nThe full http path to images on the web server.\n\n#### generatedImagesDir\n\nType: `String`  \nDefault: value of `imagesDir`\n\nThe directory where generated images are kept. It is relative to the `projectPath`.\n\n#### generatedImagesPath\n\nType: `String`  \nDefault: value of `projectPath/generatedImagesDir`\n\nThe full path to where generated images are kept.\n\n#### httpGeneratedImagesPath\n\nType: `String`  \nDefault: `httpPath + "/" + generatedImagesDir`\n\nThe full http path to generated images on the web server.\n\n#### javascriptsPath\n\nType: `String`  \nDefault: `projectPath/javascriptsDir`\n\nThe full path to where javascripts are kept.\n\n#### httpJavascriptsPath\n\nType: `String`  \nDefault: `httpPath + "/" + javascriptsDir`\n\nThe full http path to javascripts on the web server.\n\n#### fontsPath\n\nType: `String`  \nDefault: `projectPath/fontsDir`\n\nThe full path to where font files are kept.\n\n#### httpFontsPath\n\nType: `String`\n\nThe full http path to font files on the web server.\n\n#### httpFontsDir\n\nType: `String`\n\nThe relative http path to font files on the web server.\n\n#### extensionsPath\n\nType: `String`  \nDefault: `project_root/extensions`\n\nThe full http path to the ad-hoc extensions folder on the web server. This is used to access compass plugins that have been installed directly to the project (e.g. through [Bower](https://github.com/bower/bower)) instead of globally as gems. *Only Compass >=0.12.2*\n\n#### extensionsDir\n\nType: `String`\n\nThe relative http path to the ad-hoc extensions folder on the web server. *Only Compass >=0.12.2*\n\n#### assetCacheBuster\n\nType: `Boolean`  \nDefault: `true`\n\nIf set to `false`, this disables the default asset cache buster.\n\n#### cacheDir\n\nType: `String`  \nDefault: `.sass-cache`\n\nThe relative path to the folder where the sass cache files are generated.\n\n#### require\n\nType: `String|Array`\n\nRequire the given Ruby library before running commands. This is used to access Compass plugins without having a project configuration file.\n\n#### load\n\nType: `String|Array`\n\nLoad the framework or extensions found in the specified directory.\n\n#### loadAll\n\nType: `String|Array`\n\nLoad all the frameworks or extensions found in the specified directory.\n\n#### importPath\n\nType: `String|Array`\n\nMakes files under the specified folder findable by Sass\'s @import directive.\n\n#### debugInfo\n\nType: `Boolean`\n\nCauses the line number and file where a selector is defined to be emitted into the compiled CSS in a format that can be understood by the browser. Automatically disabled when using `outputStyle: \'compressed\'`.\n\n#### quiet\n\nType: `Boolean`\n\nQuiet mode.\n\n#### trace\n\nType: `Boolean`\n\nShow a full stacktrace on error.\n\n#### force\n\nType: `Boolean`\n\nAllows Compass to overwrite existing files.\n\n#### dryRun\n\nType: `Boolean`\n\nDry Run. Tells you what it plans to do.\n\n#### boring\n\nType: `Boolean`\n\nTurn off colorized output.\n\n#### bundleExec\n\nType: `Boolean`\n\nRun `compass compile` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html): `bundle exec compass compile`.\n\n#### clean\n\nType: `Boolean`\n\nRemove generated files and the sass cache. Runs `compass clean` instead of `compass compile`.\n\n#### watch\n\nType: `Boolean`\n\nRuns `compass watch` instead of `compass compile`. This will use Compass\' native watch command to listen for changes to Sass files and recompile your CSS on changes. While much faster than running `compass compile` each time you want to compile your Sass, Compass becomes a blocking task. This means that if you would like to use it in conjunction with another blocking task, such as `watch`, you will need to use it in conjunction with a paralleling task such as [grunt-concurrent](https://github.com/sindresorhus/grunt-concurrent).\n\n\n[config]: http://compass-style.org/help/tutorials/configuration-reference/\n\n### Usage Examples\n\n#### Example config\n\n```javascript\ngrunt.initConfig({\n  compass: {                  // Task\n    dist: {                   // Target\n      options: {              // Target options\n        sassDir: \'sass\',\n        cssDir: \'css\',\n        environment: \'production\'\n      }\n    },\n    dev: {                    // Another target\n      options: {\n        sassDir: \'sass\',\n        cssDir: \'css\'\n      }\n    }\n  }\n});\n\ngrunt.loadNpmTasks(\'grunt-contrib-compass\');\n\ngrunt.registerTask(\'default\', [\'jshint\', \'compass\']);\n```\n\n\n#### Example usage\n\n\n##### Use external config file\n\n```javascript\ngrunt.initConfig({\n  compass: {\n    dist: {\n      options: {\n        config: \'config/config.rb\'\n      }\n    }\n  }\n});\n```\n\n##### Override setting in external config file\n\n```javascript\ngrunt.initConfig({\n  compass: {\n    dist: {\n      options: {\n        config: \'config/config.rb\',  // css_dir = \'dev/css\'\n        cssDir: \'dist/css\'\n      }\n    }\n  }\n});\n```\n\n##### Use `raw` option\n\n```javascript\ngrunt.initConfig({\n  compass: {\n    dist: {\n      options: {\n        sassDir: \'sass\',\n        cssDir: \'css\',\n        raw: \'preferred_syntax = :sass\\n\' // Use `raw` since it\'s not directly available\n      }\n    }\n  }\n});\n```\n\n\n## Release History\n\n * 2014-01-26   v0.7.1   Fix `assetCacheBuster` option.\n * 2013-12-07   v0.7.0   Add `cacheDir` option.\n * 2013-10-04   v0.6.0   Add `watch` option. Fix Compass errors not propagating.\n * 2013-08-08   v0.5.0   Add `assetCacheBuster` option.\n * 2013-07-28   v0.4.1   Fix `banner` option with `.css.scss` files.\n * 2013-07-19   v0.4.0   Add `banner` option. Show compilation time.\n * 2013-06-24   v0.3.0   Add `extensionDir` and `extensionPath` options. *Requires Compass >=0.12.2*.\n * 2013-04-11   v0.2.0   Add `clean` option. Expose `raw` options as Grunt options. Fix detection of `Nothing to compile` situation.\n * 2013-02-27   v0.1.3   Fixes bundleExec.\n * 2013-02-17   v0.1.2   Ensure Gruntfile.js is included on npm.\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-02-05   v0.1.1rc8   Added new options: basePath specify, debugInfo.\n * 2013-01-25   v0.1.1rc7   Updating grunt/gruntplugin dependencies to rc7. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-10   v0.1.1rc5   Updating to work with grunt v0.4.0rc5.\n * 2012-10-22   v0.1.0   Initial release\n\n---\n\nTask submitted by [Sindre Sorhus](http://github.com/sindresorhus)\n\n*This file was generated on Sun Jan 26 2014 19:54:34.*\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-contrib-compass@0.7.2',
+330 silly resolved     _from: 'grunt-contrib-compass@~0.7.0' },
+330 silly resolved   { name: 'grunt-simple-watch',
+330 silly resolved     title: 'simple watch will watch your files without using fs.watch or fs.watchFile',
+330 silly resolved     description: 'no need to change your gruntfile configurations',
+330 silly resolved     version: '0.1.2',
+330 silly resolved     homepage: 'https://github.com/unbalanced/grunt-simple-watch',
+330 silly resolved     author: { name: 'Amir Souchami', email: 'amir.souchami@gmail.com' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/unbalanced/grunt-simple-watch.git' },
+330 silly resolved     bugs: { url: 'https://github.com/unbalanced/grunt-simple-watch/issues' },
+330 silly resolved     licenses: [ [Object], [Object] ],
+330 silly resolved     main: 'grunt.js',
+330 silly resolved     engines: { node: '*' },
+330 silly resolved     scripts: { test: 'grunt simple_watch' },
+330 silly resolved     keywords: [ 'grunt.js', 'gruntplugin', 'grunttask', 'watch' ],
+330 silly resolved     dependencies: {},
+330 silly resolved     devDependencies:
+330 silly resolved      { grunt: '~0.4.0',
+330 silly resolved        'grunt-contrib-jshint': '~0.1.1',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+330 silly resolved        'grunt-contrib-watch': '~0.3.1' },
+330 silly resolved     readme: 'grunt-simple-watch\n==================\n\ngrunt task to watch files without using fs.watch or fs.watchFile\n\n\n## Getting Started\n_If you haven\'t used [grunt][] before, be sure to check out the [Getting Started][] guide._\n\nFrom the same directory as your project\'s [Gruntfile][Getting Started] and [package.json][], install this plugin with the following command:\n\n```bash\nnpm install grunt-simple-watch --save-dev\n```\n\nOnce that\'s done, add this line to your project\'s Gruntfile:\n\n```js\ngrunt.loadNpmTasks(\'grunt-simple-watch\');\n```\n\nIf the plugin has been installed correctly, running `grunt --help` at the command line should list the newly-installed plugin\'s task or tasks. In addition, the plugin should be listed in package.json as a `devDependency`, which ensures that it will be installed whenever the `npm install` command is run.\n\n[grunt]: http://gruntjs.com/\n[Getting Started]: https://github.com/gruntjs/grunt/blob/devel/docs/getting_started.md\n[package.json]: https://npmjs.org/doc/json.html\n\n<h1>WHY?</h1>\nHaving all sort of weird issues with grunt watch?\n\nThis is because it currently uses an unstable node.js functionality - <a href="http://nodejs.org/api/fs.html#fs_fs_watch_filename_options_listener">fs.watch()</a>\n\n<h1>What happend on my case</h1>\nIm using grunt on a virtualbox dev server with Ubuntu 11.10 and Node 0.6.19.\nMy host system is Windows 7. \n\nMy project files are on a shared folder between the host and server\nWhen i update files on the shared folder it does not trigger the fs.watch \n\n<h1>The solution</h1>\nDO NOT USE fs.watch\n\nbut solve it simply by polling for changes in the most basic/simple way.\n\nThis might be more CPU intensive, and might not work in high loads with many watched files.\nBut im not sure if the original watch task would do the job as well on this case. i just did not check.\n\n<h1>Getting Started</h1>\nInstall this grunt plugin next to your project\'s [grunt.js gruntfile][getting_started] with: `npm install grunt-`\n\nThen add this line to your project\'s `grunt.js` gruntfile:\n\n```javascript\ngrunt.loadNpmTasks(\'grunt-simple-watch\');\n```\n\n[grunt]: https://github.com/cowboy/grunt\n[getting_started]: https://github.com/cowboy/grunt/blob/master/docs/getting_started.md\n\n(or simple place the task file simple_watch.js in your grunt/tasks directory..)\n\nuse the command: <b>grunt simple-watch<b> (instead of: grunt watch)\n\n<b>NO NEED TO CHANGE grunt.js configurations</b> (your gruntfile)!\n\nas it keeps on using the "watch" config.\n\n--\n\nDeveloped at SupersonicAds R&D labs.\n\n<h1>License</h1>\nCopyright (c) 2012 Amir Souchami \nLicensed under the MIT license.\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-simple-watch@0.1.2',
+330 silly resolved     _from: 'grunt-simple-watch@~0.1.2' },
+330 silly resolved   { name: 'grunt-fetch-pages',
+330 silly resolved     description: 'Grunt plugin for fetching URLs and saving the result as local files',
+330 silly resolved     version: '0.2.2',
+330 silly resolved     homepage: 'https://github.com/olihel/grunt-fetch-pages',
+330 silly resolved     author: { name: 'Oliver Hellebusch', email: 'mail@olihel.com' },
+330 silly resolved     repository:
+330 silly resolved      { type: 'git',
+330 silly resolved        url: 'git://github.com/olihel/grunt-fetch-pages.git' },
+330 silly resolved     bugs: { url: 'https://github.com/olihel/grunt-fetch-pages/issues' },
+330 silly resolved     licenses: [ [Object] ],
+330 silly resolved     main: 'Gruntfile.js',
+330 silly resolved     engines: { node: '>= 0.10.0' },
+330 silly resolved     scripts: { test: 'grunt test --verbose' },
+330 silly resolved     dependencies: { request: '~2.33.0' },
+330 silly resolved     devDependencies:
+330 silly resolved      { grunt: '~0.4.1',
+330 silly resolved        'grunt-contrib-jshint': '~0.8.0',
+330 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+330 silly resolved        'grunt-express': '~1.2.1',
+330 silly resolved        'grunt-contrib-clean': '~0.5.0' },
+330 silly resolved     peerDependencies: { grunt: '~0.4.1' },
+330 silly resolved     keywords: [ 'gruntplugin', 'fetch', 'URL', 'curl', 'wget' ],
+330 silly resolved     readme: '# grunt-fetch-pages [![NPM Version](https://badge.fury.io/js/grunt-fetch-pages.png)](http://badge.fury.io/js/grunt-fetch-pages) [![Dependency Status](https://gemnasium.com/olihel/grunt-fetch-pages.png)](https://gemnasium.com/olihel/grunt-fetch-pages) [![Build Status](https://travis-ci.org/olihel/grunt-fetch-pages.png?branch=master)](https://travis-ci.org/olihel/grunt-fetch-pages)\n\n> Grunt plugin for fetching URLs and saving the result as local files.\n\n## Getting Started\nThis plugin requires Grunt `~0.4.1`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-fetch-pages --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-fetch-pages\');\n```\n\n## The "fetchpages" task\n\n### Overview\nIn your project\'s Gruntfile, add a section named `fetchpages` to the data object passed into `grunt.initConfig()`.\n\n```js\ngrunt.initConfig({\n  fetchpages: {\n    options: {\n      // Task-specific options go here.\n    },\n    your_target: {\n      // Target-specific file lists and/or options go here.\n    },\n  },\n})\n```\n\n### Usage Examples\n```js\ngrunt.initConfig({\n  fetchpages: {\n    dist: {\n      options: {\n        urls: [\n          // list of remote urls to fetch, local destination file name (localFile) required\n          {url: \'http://localhost:3003/url.html\', localFile: \'url.html\'}\n        ],\n        // base url for fetching pages via GruntJS files feature\n        filesBaseURL: \'http://localhost:3003\',\n        // local target folder for fetched pages\n        target: \'test/www-fetched\'\n      },\n      files: [\n        // matching file names are added to "filesBaseURL" for fetching\n        {src: [\'**/*.html\', \'!url.html\'], expand: true, cwd: \'test/www-root/\'}\n      ]\n    }\n  }\n})\n```\n\n## Contributing\nTake care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n[![githalytics.com alpha](https://cruel-carlota.gopagoda.com/969b888541f7d6ce883776737ae69ed8 "githalytics.com")](http://githalytics.com/olihel/grunt-fetch-pages)\n\n<sub>**Credits**</sub>  \n<sub>Thanks to [SinnerSchrader](http://www.sinnerschrader.com/) for support.</sub>\n\n<sub>**License**</sub>  \n<sub>The MIT License (MIT)</sub>  \n<sub>Copyright (c) 2013 Oliver Hellebusch</sub>\n\n<sub>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</sub>\n\n<sub>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</sub>\n\n<sub>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</sub>\n\n',
+330 silly resolved     readmeFilename: 'README.md',
+330 silly resolved     _id: 'grunt-fetch-pages@0.2.2',
+330 silly resolved     _from: 'grunt-fetch-pages@~0.2.1' } ]
+331 info install grunt-contrib-uglify@0.2.7 into /vagrant/public/capture-iowa
+332 info install grunt@0.4.4 into /vagrant/public/capture-iowa
+333 info install grunt-contrib-jshint@0.6.5 into /vagrant/public/capture-iowa
+334 info install grunt-contrib-watch@0.5.3 into /vagrant/public/capture-iowa
+335 info install grunt-contrib-concat@0.3.0 into /vagrant/public/capture-iowa
+336 info install grunt-contrib-imagemin@0.4.1 into /vagrant/public/capture-iowa
+337 info install grunt-contrib-sass@0.6.0 into /vagrant/public/capture-iowa
+338 info install grunt-contrib-nodeunit@0.2.2 into /vagrant/public/capture-iowa
+339 info install grunt-contrib-compass@0.7.2 into /vagrant/public/capture-iowa
+340 info install grunt-simple-watch@0.1.2 into /vagrant/public/capture-iowa
+341 info install grunt-fetch-pages@0.2.2 into /vagrant/public/capture-iowa
+342 info installOne grunt-contrib-uglify@0.2.7
+343 info installOne grunt@0.4.4
+344 info installOne grunt-contrib-jshint@0.6.5
+345 info installOne grunt-contrib-watch@0.5.3
+346 info installOne grunt-contrib-concat@0.3.0
+347 info installOne grunt-contrib-imagemin@0.4.1
+348 info installOne grunt-contrib-sass@0.6.0
+349 info installOne grunt-contrib-nodeunit@0.2.2
+350 info installOne grunt-contrib-compass@0.7.2
+351 info installOne grunt-simple-watch@0.1.2
+352 info installOne grunt-fetch-pages@0.2.2
+353 info /vagrant/public/capture-iowa/node_modules/grunt-contrib-uglify unbuild
+354 info /vagrant/public/capture-iowa/node_modules/grunt unbuild
+355 info /vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint unbuild
+356 info /vagrant/public/capture-iowa/node_modules/grunt-contrib-watch unbuild
+357 info /vagrant/public/capture-iowa/node_modules/grunt-contrib-concat unbuild
+358 info /vagrant/public/capture-iowa/node_modules/grunt-contrib-imagemin unbuild
+359 info /vagrant/public/capture-iowa/node_modules/grunt-contrib-sass unbuild
+360 info /vagrant/public/capture-iowa/node_modules/grunt-contrib-nodeunit unbuild
+361 info /vagrant/public/capture-iowa/node_modules/grunt-contrib-compass unbuild
+362 verbose tar unpack /home/vagrant/.npm/grunt/0.4.4/package.tgz
+363 silly lockFile 46e7d84a--capture-iowa-node-modules-grunt tar:///vagrant/public/capture-iowa/node_modules/grunt
+364 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt /home/vagrant/.npm/46e7d84a--capture-iowa-node-modules-grunt.lock
+365 silly lockFile 49892057-rant-npm-grunt-0-4-4-package-tgz tar:///home/vagrant/.npm/grunt/0.4.4/package.tgz
+366 verbose lock tar:///home/vagrant/.npm/grunt/0.4.4/package.tgz /home/vagrant/.npm/49892057-rant-npm-grunt-0-4-4-package-tgz.lock
+367 verbose tar unpack /home/vagrant/.npm/grunt-contrib-jshint/0.6.5/package.tgz
+368 silly lockFile 00d9e4b2-ode-modules-grunt-contrib-jshint tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint
+369 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint /home/vagrant/.npm/00d9e4b2-ode-modules-grunt-contrib-jshint.lock
+370 silly lockFile b66e5d2d-contrib-jshint-0-6-5-package-tgz tar:///home/vagrant/.npm/grunt-contrib-jshint/0.6.5/package.tgz
+371 verbose lock tar:///home/vagrant/.npm/grunt-contrib-jshint/0.6.5/package.tgz /home/vagrant/.npm/b66e5d2d-contrib-jshint-0-6-5-package-tgz.lock
+372 verbose tar unpack /home/vagrant/.npm/grunt-contrib-watch/0.5.3/package.tgz
+373 silly lockFile d9ac9151-node-modules-grunt-contrib-watch tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-watch
+374 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-watch /home/vagrant/.npm/d9ac9151-node-modules-grunt-contrib-watch.lock
+375 silly lockFile 9228a917--contrib-watch-0-5-3-package-tgz tar:///home/vagrant/.npm/grunt-contrib-watch/0.5.3/package.tgz
+376 verbose lock tar:///home/vagrant/.npm/grunt-contrib-watch/0.5.3/package.tgz /home/vagrant/.npm/9228a917--contrib-watch-0-5-3-package-tgz.lock
+377 verbose tar unpack /home/vagrant/.npm/grunt-contrib-concat/0.3.0/package.tgz
+378 silly lockFile 01bb0f54-ode-modules-grunt-contrib-concat tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-concat
+379 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-concat /home/vagrant/.npm/01bb0f54-ode-modules-grunt-contrib-concat.lock
+380 silly lockFile 97c0ec6f-contrib-concat-0-3-0-package-tgz tar:///home/vagrant/.npm/grunt-contrib-concat/0.3.0/package.tgz
+381 verbose lock tar:///home/vagrant/.npm/grunt-contrib-concat/0.3.0/package.tgz /home/vagrant/.npm/97c0ec6f-contrib-concat-0-3-0-package-tgz.lock
+382 verbose tar unpack /home/vagrant/.npm/grunt-contrib-imagemin/0.4.1/package.tgz
+383 silly lockFile 0ecb740e-e-modules-grunt-contrib-imagemin tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-imagemin
+384 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-imagemin /home/vagrant/.npm/0ecb740e-e-modules-grunt-contrib-imagemin.lock
+385 silly lockFile 5e608cef-ntrib-imagemin-0-4-1-package-tgz tar:///home/vagrant/.npm/grunt-contrib-imagemin/0.4.1/package.tgz
+386 verbose lock tar:///home/vagrant/.npm/grunt-contrib-imagemin/0.4.1/package.tgz /home/vagrant/.npm/5e608cef-ntrib-imagemin-0-4-1-package-tgz.lock
+387 verbose tar unpack /home/vagrant/.npm/grunt-contrib-sass/0.6.0/package.tgz
+388 silly lockFile ad80ab85--node-modules-grunt-contrib-sass tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-sass
+389 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-sass /home/vagrant/.npm/ad80ab85--node-modules-grunt-contrib-sass.lock
+390 silly lockFile a7abbba5-t-contrib-sass-0-6-0-package-tgz tar:///home/vagrant/.npm/grunt-contrib-sass/0.6.0/package.tgz
+391 verbose lock tar:///home/vagrant/.npm/grunt-contrib-sass/0.6.0/package.tgz /home/vagrant/.npm/a7abbba5-t-contrib-sass-0-6-0-package-tgz.lock
+392 verbose tar unpack /home/vagrant/.npm/grunt-contrib-nodeunit/0.2.2/package.tgz
+393 silly lockFile 1858e304-e-modules-grunt-contrib-nodeunit tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-nodeunit
+394 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-nodeunit /home/vagrant/.npm/1858e304-e-modules-grunt-contrib-nodeunit.lock
+395 silly lockFile d423e5d4-ntrib-nodeunit-0-2-2-package-tgz tar:///home/vagrant/.npm/grunt-contrib-nodeunit/0.2.2/package.tgz
+396 verbose lock tar:///home/vagrant/.npm/grunt-contrib-nodeunit/0.2.2/package.tgz /home/vagrant/.npm/d423e5d4-ntrib-nodeunit-0-2-2-package-tgz.lock
+397 info /vagrant/public/capture-iowa/node_modules/grunt-simple-watch unbuild
+398 info /vagrant/public/capture-iowa/node_modules/grunt-fetch-pages unbuild
+399 verbose tar unpack /home/vagrant/.npm/grunt-contrib-uglify/0.2.7/package.tgz
+400 silly lockFile e0e9097d-ode-modules-grunt-contrib-uglify tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-uglify
+401 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-uglify /home/vagrant/.npm/e0e9097d-ode-modules-grunt-contrib-uglify.lock
+402 silly lockFile 2ee6f531-contrib-uglify-0-2-7-package-tgz tar:///home/vagrant/.npm/grunt-contrib-uglify/0.2.7/package.tgz
+403 verbose lock tar:///home/vagrant/.npm/grunt-contrib-uglify/0.2.7/package.tgz /home/vagrant/.npm/2ee6f531-contrib-uglify-0-2-7-package-tgz.lock
+404 verbose tar unpack /home/vagrant/.npm/grunt-contrib-compass/0.7.2/package.tgz
+405 silly lockFile df09e077-de-modules-grunt-contrib-compass tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-compass
+406 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-contrib-compass /home/vagrant/.npm/df09e077-de-modules-grunt-contrib-compass.lock
+407 silly lockFile 8c7fd4d0-ontrib-compass-0-7-2-package-tgz tar:///home/vagrant/.npm/grunt-contrib-compass/0.7.2/package.tgz
+408 verbose lock tar:///home/vagrant/.npm/grunt-contrib-compass/0.7.2/package.tgz /home/vagrant/.npm/8c7fd4d0-ontrib-compass-0-7-2-package-tgz.lock
+409 verbose tar unpack /home/vagrant/.npm/grunt-simple-watch/0.1.2/package.tgz
+410 silly lockFile 6c1b84c7--node-modules-grunt-simple-watch tar:///vagrant/public/capture-iowa/node_modules/grunt-simple-watch
+411 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-simple-watch /home/vagrant/.npm/6c1b84c7--node-modules-grunt-simple-watch.lock
+412 silly lockFile 9da01ff1-t-simple-watch-0-1-2-package-tgz tar:///home/vagrant/.npm/grunt-simple-watch/0.1.2/package.tgz
+413 verbose lock tar:///home/vagrant/.npm/grunt-simple-watch/0.1.2/package.tgz /home/vagrant/.npm/9da01ff1-t-simple-watch-0-1-2-package-tgz.lock
+414 verbose tar unpack /home/vagrant/.npm/grunt-fetch-pages/0.2.2/package.tgz
+415 silly lockFile f80790c7-a-node-modules-grunt-fetch-pages tar:///vagrant/public/capture-iowa/node_modules/grunt-fetch-pages
+416 verbose lock tar:///vagrant/public/capture-iowa/node_modules/grunt-fetch-pages /home/vagrant/.npm/f80790c7-a-node-modules-grunt-fetch-pages.lock
+417 silly lockFile 5d3991c6-nt-fetch-pages-0-2-2-package-tgz tar:///home/vagrant/.npm/grunt-fetch-pages/0.2.2/package.tgz
+418 verbose lock tar:///home/vagrant/.npm/grunt-fetch-pages/0.2.2/package.tgz /home/vagrant/.npm/5d3991c6-nt-fetch-pages-0-2-2-package-tgz.lock
+419 silly gunzTarPerm modes [ '755', '644' ]
+420 silly gunzTarPerm modes [ '755', '644' ]
+421 silly gunzTarPerm modes [ '755', '644' ]
+422 silly gunzTarPerm modes [ '755', '644' ]
+423 silly gunzTarPerm modes [ '755', '644' ]
+424 silly gunzTarPerm modes [ '755', '644' ]
+425 silly gunzTarPerm modes [ '755', '644' ]
+426 silly gunzTarPerm modes [ '755', '644' ]
+427 silly gunzTarPerm modes [ '755', '644' ]
+428 silly gunzTarPerm modes [ '755', '644' ]
+429 silly gunzTarPerm modes [ '755', '644' ]
+430 silly gunzTarPerm extractEntry package.json
+431 silly gunzTarPerm extractEntry package.json
+432 silly gunzTarPerm extractEntry package.json
+433 silly gunzTarPerm extractEntry package.json
+434 silly gunzTarPerm extractEntry package.json
+435 silly gunzTarPerm extractEntry package.json
+436 silly gunzTarPerm extractEntry package.json
+437 silly gunzTarPerm extractEntry package.json
+438 silly gunzTarPerm extractEntry package.json
+439 silly gunzTarPerm extractEntry package.json
+440 silly gunzTarPerm extractEntry package.json
+441 silly gunzTarPerm extractEntry .npmignore
+442 silly gunzTarPerm extractEntry README.md
+443 silly gunzTarPerm extractEntry .npmignore
+444 silly gunzTarPerm extractEntry README.md
+445 silly gunzTarPerm extractEntry .npmignore
+446 silly gunzTarPerm extractEntry README.md
+447 silly gunzTarPerm extractEntry .npmignore
+448 silly gunzTarPerm extractEntry README.md
+449 silly gunzTarPerm extractEntry README.md
+450 silly gunzTarPerm extractEntry LICENSE-MIT
+451 silly gunzTarPerm extractEntry .npmignore
+452 silly gunzTarPerm extractEntry README.md
+453 silly gunzTarPerm extractEntry README.md
+454 silly gunzTarPerm extractEntry Gruntfile.js
+455 silly gunzTarPerm extractEntry .npmignore
+456 silly gunzTarPerm extractEntry README.md
+457 silly gunzTarPerm extractEntry README.md
+458 silly gunzTarPerm extractEntry LICENSE-MIT
+459 silly gunzTarPerm extractEntry .npmignore
+460 silly gunzTarPerm extractEntry README.md
+461 silly gunzTarPerm extractEntry .npmignore
+462 silly gunzTarPerm extractEntry README.md
+463 error Error: EPERM, chown '/vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint/package.json'
+463 error  { [Error: EPERM, chown '/vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint/package.json']
+463 error   errno: 50,
+463 error   code: 'EPERM',
+463 error   path: '/vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint/package.json',
+463 error   fstream_finish_call: 'chown',
+463 error   fstream_type: 'File',
+463 error   fstream_path: '/vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint/package.json',
+463 error   fstream_class: 'FileWriter',
+463 error   fstream_stack:
+463 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/writer.js:305:19',
+463 error      '/usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7',
+463 error      'Object.oncomplete (fs.js:107:15)' ] }
+464 error Please try running this command again as root/Administrator.
+465 error System Linux 3.2.0-23-generic-pae
+466 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+467 error cwd /vagrant/public/capture-iowa
+468 error node -v v0.10.15
+469 error npm -v 1.3.5
+470 error path /vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint/package.json
+471 error fstream_path /vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint/package.json
+472 error fstream_type File
+473 error fstream_class FileWriter
+474 error fstream_finish_call chown
+475 error code EPERM
+476 error errno 50
+477 error stack Error: EPERM, chown '/vagrant/public/capture-iowa/node_modules/grunt-contrib-jshint/package.json'
+478 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/writer.js:305:19
+478 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+478 error fstream_stack Object.oncomplete (fs.js:107:15)
+479 verbose exit [ 50, true ]
