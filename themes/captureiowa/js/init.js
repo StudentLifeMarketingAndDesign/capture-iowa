@@ -1,4 +1,3 @@
-
 jQuery(document).ready(function($){
     var deviceAgent = navigator.userAgent.toLowerCase();
     var agentID = deviceAgent.match(/(iPad|iPhone|iPod)/i);
@@ -8,17 +7,19 @@ jQuery(document).ready(function($){
         target = $(body);
     }
 
-    $(window).scroll(function() {
-        if(($(window).scrollTop() > 10) && ($( window ).width() > 768)){
-            $('.division-directory').slideUp();
-        }
 
-        if(($(window).scrollTop() > 160) && ($( window ).width() > 768)){
-            $('.logo').addClass('scrolled');
-        }
-        if(($(window).scrollTop() < 160) && ($( window ).width() > 768)){
-            $('.logo').removeClass('scrolled');
-        }
+$(window).scroll(function() {
+    if(($(window).scrollTop() > 10)){
+         $('.division-directory').slideUp();
+    }
+
+    if(($(window).scrollTop() > 160)){
+         $('.logo').addClass('scrolled');
+    }
+
+    if(($(window).scrollTop() < 160)){
+         $('.logo').removeClass('scrolled');
+    }    
 
     });
 });
