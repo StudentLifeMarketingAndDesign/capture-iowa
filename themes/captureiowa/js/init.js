@@ -1,3 +1,13 @@
+jQuery(document).ready(function($){
+    var deviceAgent = navigator.userAgent.toLowerCase();
+    var agentID = deviceAgent.match(/(iPad|iPhone|iPod)/i);
+    var target =  $(window);
+    if (agentID)
+    {
+        target = $(body);
+    }
+
+
 $(window).scroll(function() {
     if(($(window).scrollTop() > 10)){
          $('.division-directory').slideUp();
@@ -11,4 +21,5 @@ $(window).scroll(function() {
          $('.logo').removeClass('scrolled');
     }
 
+    });
 });
