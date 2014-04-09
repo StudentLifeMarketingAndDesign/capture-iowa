@@ -9,6 +9,6 @@ $(window).scroll(function() {
 
     if(($(window).scrollTop() < 160)){
          $('.logo').removeClass('scrolled');
-    }    
+    }
 
 });

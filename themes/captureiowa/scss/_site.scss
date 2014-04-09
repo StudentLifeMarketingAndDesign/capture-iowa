@@ -60,6 +60,18 @@ header {
 
 		}	
 }
+
+.more-info{
+	color: white;
+	background: rgba(51, 51, 51, 0.68);
+	padding: 5px;
+	p{
+		
+
+	}
+}
+
+
  
 .instruction-text {
 	margin: 20px 0;
@@ -115,7 +127,8 @@ header {
 .storify iframe{
 	width: 100% !important;
 	max-width: 100% !important;
-	height: 1000px;
+	height: 6500px;
+	overflow: hidden;
 }
 
 .end-tag {
