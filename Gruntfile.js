@@ -8,7 +8,6 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'division-simple/bower_components/jquery/jquery.js',
           'division-simple/bower_components/magnific-popup/dist/jquery.magnific-popup.js',
           'division-simple/vendor/sass-bootstrap/js/sass-bootstrap.min.js',
           'division-bar/js/division-bar.js',
