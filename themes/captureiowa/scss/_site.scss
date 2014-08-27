@@ -110,10 +110,12 @@ header img.logo.scrolled {
 }
 
 .storify iframe {
-   // width: 100% !important;
     max-width: 100% !important;
     height: 6500px;
     overflow: hidden;
+    @media screen and (min-width: $screen-lg-min) {
+        width: 100% !important;
+    }
 }
 
 .end-tag {
