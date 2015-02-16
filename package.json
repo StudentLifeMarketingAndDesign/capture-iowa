@@ -10,7 +10,6 @@
     "grunt-contrib-imagemin": "~0.4.0",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-compass": "~0.7.0",
     "grunt-simple-watch": "~0.1.2",
     "grunt-fetch-pages": "~0.2.1"
   }
