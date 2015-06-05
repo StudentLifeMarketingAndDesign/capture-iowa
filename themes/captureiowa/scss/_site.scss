@@ -33,6 +33,7 @@ header {
 
 header img.logo.scrolled {
     top: -40px;
+    z-index: 1000;
     @media screen and (min-width: $screen-sm-min) {
         top: -5px;
     }
