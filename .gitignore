@@ -12,3 +12,5 @@ sortablegridfield/
 bower_components/
 division-simple/
 node_modules
+npm-debug.log
+.DS_Store
